@@ -1,0 +1,31 @@
+# 任务设置
+# 支持相对路径、绝对路径、插件吗名称(需要先设置Obsidian的plugins文件夹路径)
+Tasks:
+  - obsidian-git
+    
+Setting:
+  # 路径设置
+  pluginsPath:
+    - D:\UserObsidian\.obsidian\plugins
+    # 支持多个路径
+  # 翻译设置
+  translate:
+    Api: # 可以不填写
+    Interval: # 每翻译多少次暂停一次
+      num: 20
+      sleep: 2 # 单位为秒
+      to: zh-CN # 更多目标语言 https://pygtrans.readthedocs.io/zh_CN/latest/langs.html
+    domain: 'cn'
+
+
+extract:
+  translateManifest:
+    expression:
+      - description
+    type: json
+  translateMenu:
+    expression:
+      - 'text: "(.*?)"'
+      - setName\("(.*?)"\)
+      - setDesc\("(.*?)"\)
+    type: regular

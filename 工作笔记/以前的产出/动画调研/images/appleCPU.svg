@@ -1,0 +1,41 @@
+<svg id="chip-svg" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 1980.41 1981.41" style="transform: matrix(3.36061, 0, 0, 3.36061, 9.07051, 0); opacity: 1; display: block;">
+	<defs>
+		<linearGradient id="chip-linear-gradient" x1="1957.65" y1="1956.19" x2="35.2" y2="33.74" gradientUnits="userSpaceOnUse">
+			<stop offset="0.93" stop-color="#662c91"></stop>
+			<stop offset="1" stop-opacity="0"></stop>
+		</linearGradient>
+	</defs>
+	<g id="chip-gradient">
+		<g>
+			<rect class="cls-1" x="31.2" y="28.96" width="1922.45" height="1922.45"></rect>
+			<path class="cls-2" d="M1962.2,39.06V1960.51H40.75V39.06H1962.2m1-1H39.75V1961.51H1963.2V38.06Z" transform="translate(-9.05 -9.6)"></path>
+		</g>
+	</g>
+	<g id="lines">
+		<line id="_0" data-name="0" class="cls-3" x1="982.63" y1="1961.73" x2="982.63" y2="32.52" style="stroke-dasharray: 1930; stroke: rgb(233, 114, 132); stroke-dashoffset: 0px;"></line>
+		<line id="_2" data-name="2" class="cls-4" x1="1100.06" y1="32.52" x2="1100.06" y2="999" style="stroke-dasharray: 967; stroke: rgb(233, 114, 132); stroke-dashoffset: 446.085px;"></line>
+		<line id="_3" data-name="3" class="cls-5" x1="750.7" y1="1340.4" x2="750.7" y2="365.29" style="stroke-dasharray: 976; stroke: rgb(233, 114, 132); stroke-dashoffset: 161.803px;"></line>
+		<line id="_4" data-name="4" class="cls-5" x1="517.02" y1="1340.4" x2="517.02" y2="365.29" style="stroke-dasharray: 976; stroke: rgb(233, 114, 132); stroke-dashoffset: 89.7558px;"></line>
+		<line id="_5" data-name="5" class="cls-5" x1="285.01" y1="1340.4" x2="285.01" y2="365.29" style="stroke-dasharray: 976; stroke: rgb(233, 114, 132); stroke-dashoffset: 41.4049px;"></line>
+		<line id="_6" data-name="6" class="cls-4" x1="1217.83" y1="32.52" x2="1217.83" y2="999" style="stroke-dasharray: 967; stroke: rgb(233, 114, 132); stroke-dashoffset: 530.652px;"></line>
+		<line id="_7" data-name="7" class="cls-5" x1="1221.5" y1="1464.34" x2="1221.5" y2="1236.55" style="stroke-dasharray: 228; stroke: rgb(233, 114, 132); stroke-dashoffset: 228px;"></line>
+		<line id="_8" data-name="8" class="cls-5" x1="1340.31" y1="1345.41" x2="1340.31" y2="1237.41" style="stroke-dasharray: 108; stroke: rgb(233, 114, 132); stroke-dashoffset: 108px;"></line>
+		<line id="_9" data-name="9" class="cls-4" x1="1340.98" y1="999" x2="1340.98" y2="32.52" style="stroke-dasharray: 967; stroke: rgb(233, 114, 132); stroke-dashoffset: 330.004px;"></line>
+		<line id="_10" data-name="10" class="cls-4" x1="1459.7" y1="997.67" x2="1459.7" y2="1465.4" style="stroke-dasharray: 468; stroke: rgb(233, 114, 132); stroke-dashoffset: 114.15px;"></line>
+		<line id="_11" data-name="11" class="cls-4" x1="1571.1" y1="999" x2="1571.1" y2="32.52" style="stroke-dasharray: 967; stroke: rgb(233, 114, 132); stroke-dashoffset: 530.652px;"></line>
+		<line id="_12" data-name="12" class="cls-4" x1="1453.6" y1="999" x2="1453.6" y2="32.52" style="stroke-dasharray: 967; stroke: rgb(233, 114, 132); stroke-dashoffset: 235.862px;"></line>
+		<line id="_13" data-name="13" class="cls-4" x1="1689.53" y1="32.52" x2="1689.53" y2="999" style="stroke-dasharray: 967; stroke: rgb(233, 114, 132); stroke-dashoffset: 347.054px;"></line>
+		<line id="_14" data-name="14" class="cls-5" x1="1807.95" y1="32.52" x2="1807.95" y2="999" style="stroke-dasharray: 967; stroke: rgb(233, 114, 132); stroke-dashoffset: 392.986px;"></line>
+		<line id="_15" data-name="15" class="cls-6" x1="30.7" y1="366.92" x2="983.24" y2="366.92" style="stroke-dasharray: 953; stroke: rgb(233, 114, 132); stroke-dashoffset: 0.506153px;"></line>
+		<line id="_16" data-name="16" class="cls-4" x1="983.75" y1="1234.98" x2="1460.84" y2="1234.98" style="stroke-dasharray: 478; stroke: rgb(233, 114, 132); stroke-dashoffset: 478px;"></line>
+		<line id="_17" data-name="17" class="cls-4" x1="984.42" y1="1462.42" x2="1949.95" y2="1462.42" style="stroke-dasharray: 966; stroke: rgb(233, 114, 132); stroke-dashoffset: 966px;"></line>
+		<line id="_18" data-name="18" class="cls-5" x1="1222.98" y1="1343.42" x2="1458.98" y2="1343.42" style="stroke-dasharray: 236; stroke: rgb(233, 114, 132); stroke-dashoffset: 236px;"></line>
+		<line id="_19" data-name="19" class="cls-3" x1="30.7" y1="1633.11" x2="983.24" y2="1633.11" style="stroke-dasharray: 953; stroke: rgb(233, 114, 132); stroke-dashoffset: 87.1443px;"></line>
+		<line id="_20" data-name="20" class="cls-5" x1="30.7" y1="1340.98" x2="983.24" y2="1340.98" style="stroke-dasharray: 953; stroke: rgb(233, 114, 132); stroke-dashoffset: 0px;"></line>
+		<line id="_21" data-name="21" class="cls-3" x1="984.08" y1="998.68" x2="25.55" y2="998.68" style="stroke-dasharray: 959; stroke: rgb(233, 114, 132); stroke-dashoffset: 74.9736px;"></line>
+		<line id="_22" data-name="22" class="cls-4" x1="1942.3" y1="996.85" x2="983.76" y2="996.85" style="stroke-dasharray: 959; stroke: rgb(233, 114, 132); stroke-dashoffset: 0px;"></line>
+	</g>
+	<g id="frame">
+		<rect class="cls-8" x="30" y="30" width="1920.41" height="1921.41" style="stroke: rgb(233, 114, 132);"></rect>
+	</g>
+</svg>

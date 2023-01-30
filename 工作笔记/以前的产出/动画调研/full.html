@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <script src="https://cdn.staticfile.org/jquery/1.12.4/jquery.min.js"></script>
+    <link rel="stylesheet" href="normalize.css" />
+    <style>
+        * {
+            font-size: 32px;
+            font-family: "SF Pro SC", "SF Pro Display", "SF Pro Icons",
+                "PingFang SC", "Helvetica Neue", "Helvetica", "Arial",
+                sans-serif;
+            line-height: 1.125;
+        }
+
+        html,
+        body {
+            height: 100%;
+            /* overflow-x:hidden; */
+            background-color: #000000;
+        }
+
+        .firstBackground {
+            height: 100%;
+            width: 100%;
+            background-color: #000000;
+        }
+
+        .firstMessage {
+            font-size: 27px;
+            z-index: 9;
+            width: 400px;
+            -webkit-background-clip: text;
+            color: transparent;
+            background-image: linear-gradient(225deg,
+                    #ff5ea7 36.04%,
+                    #010fcb 88.83%,
+                    #ff6530 220.3%);
+            padding: 0;
+            margin: 0;
+            overflow: hidden;
+        }
+
+        .firstMessage1 {
+            z-index: 9;
+            font-size: 80px;
+            color: #fff;
+            padding: 0;
+            margin: 0;
+        }
+
+        .image {
+            text-align: center;
+        }
+
+        .image img {
+            /* position: absolute;
+            left: 11em;
+            top: 2em; */
+            transform: matrix(1, 0, 0, 1, 0, 0);
+            opacity: 1;
+            width: 32em;
+            margin-top: 2em;
+            margin-right: 5em;
+            margin-left: 10em;
+        }
+
+
+        .active {
+            position: fixed;
+            left: 0;
+            top: 0;
+            z-index: 9;
+        }
+
+        #ui {
+            height: 100%;
+            width: 100%;
+        }
+
+        .testBox1,
+        .testBox2,
+        .testBox3,
+        .testBox4,
+        .testBox5,
+        .testBox6,
+        .testBox7,
+        .testBox8,
+        .testBox9,
+        .testBox0 {
+            height: 969px;
+            color: azure;
+        }
+    </style>
+</head>
+
+<body>
+    <div id="ui">
+        <div class="firstBackground active">
+            <div class="message" style="border: 1px solid transparent;display: inline-block;z-index: 1;position: absolute; left: 50%;top: 40%;">
+                <h1 class="firstMessage1">iPad Pro</h1>
+                <h1 class="firstMessage">由 Apple M1 芯片强势驱动</h1>
+            </div>
+            <div class="image">
+                <img src="https://www.apple.com.cn/v/ipad-pro/af/images/overview/experience/hero_enhanced_150__d6c8gtbj3866_large.jpg"
+                    alt="" />
+            </div>
+        </div>
+        <!-- <div class="testBox1">
+            第1屏
+        </div> -->
+        <div class="testBox2">
+            第二屏
+        </div>
+        <div class="testBox3">
+            第3屏
+        </div>
+        <div class="testBox4">
+            第4屏
+        </div>
+        <div class="testBox5">
+            第5屏
+        </div>
+        <div class="testBox6">
+            第6屏
+        </div>
+        <div class="testBox7">
+            第7屏
+        </div>
+        <div class="testBox8">
+            第8屏
+        </div>
+        <div class="testBox9">
+            第9屏
+        </div>
+        <div class="testBox0">
+            第0屏
+        </div>
+    </div>
+    <script>
+        $(document).scroll((event) => {
+            event.preventDefault();
+            event.stopPropagation();
+            // 滚动条(Y)的比例
+            let scrollPer = $(document).scrollTop() / $(document).height();
+            // 一页在滚动条(Y)的比例
+            let pagePer = $(window).height() / $(document).height() / 2;
+            let img1 = $(".image img");
+            let msg1 = $(".message")
+            // a 水平缩放、b 水平拉伸、c 垂直拉伸、d 垂直缩放、x 水平位移、y 垂直位移
+            let a = 1, d = 1, x = 0, y = 0;
+            a = 1 + (6-1) / pagePer * scrollPer;
+            d = a;
+            x = 1200 / pagePer * scrollPer;
+            y = -1650 / pagePer * scrollPer;
+            let a1 = 1, d1 = 1;
+            a1 = 1 - 0.4 / pagePer * scrollPer;
+            d1 = a1;
+            let opacity = 1
+            // 0.2 虚化占比
+            if(scrollPer > pagePer * 0.8 && scrollPer < pagePer){
+                opacity = 1 - 1 / pagePer / 0.2 * (scrollPer - pagePer * 0.8)
+            }
+            if(scrollPer < pagePer){
+                msg1.css({ transform: `matrix(${a1}, 0, 0, ${d1}, 0, 0)`, opacity:opacity})
+                img1.css({ transform: `matrix(${a}, 0, 0, ${d}, ${x}, ${y})`, opacity:opacity});
+            }else{
+                img1.css({ transform: `matrix(1, 0, 0, 1, 0, 0)`, opacity:0});
+            }
+
+            let pages = $("#ui").children()
+            console.log(pages)
+            console.log(typeof pages)
+            pages.map((index)=>{
+                if(scrollPer < pagePer * (index + 1) && scrollPer >= pagePer * index){
+                    $(pages[index]).addClass("active")
+                }else{
+                    $(pages[index]).removeClass("active")
+                }
+            })
+            // return false
+        });
+    </script>
+</body>
+
+</html>
