@@ -1,0 +1,26 @@
+{
+  "legacyEditor": false,
+  "livePreview": true,
+  "promptDelete": false,
+  "trashOption": "local",
+  "attachmentFolderPath": "./附件",
+  "fileSortOrder": "alphabetical",
+  "showUnsupportedFiles": true,
+  "alwaysUpdateLinks": true,
+  "foldHeading": true,
+  "showLineNumber": false,
+  "defaultViewMode": "preview",
+  "useTab": true,
+  "showFrontmatter": true,
+  "spellcheck": false,
+  "strictLineBreaks": true,
+  "newLinkFormat": "shortest",
+  "pdfExportSettings": {
+    "includeName": true,
+    "pageSize": "Letter",
+    "landscape": false,
+    "margin": "0",
+    "downscalePercent": 100
+  },
+  "autoConvertHtml": false
+}

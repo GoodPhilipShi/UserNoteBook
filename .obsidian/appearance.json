@@ -1,0 +1,17 @@
+{
+  "baseFontSize": 17,
+  "cssTheme": "AnuPpuccin",
+  "theme": "moonstone",
+  "enabledCssSnippets": [
+    "淡化视图切换控件",
+    "yaozhuwa@CSS",
+    "custom-admonitions.dac0b7",
+    "extended-colorschemes",
+    "优化标题"
+  ],
+  "translucency": false,
+  "accentColor": "#3381ff",
+  "interfaceFontFamily": "Microsoft YaHei UI",
+  "monospaceFontFamily": "Fira Code",
+  "textFontFamily": "Microsoft YaHei"
+}

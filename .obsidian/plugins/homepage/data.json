@@ -1,0 +1,17 @@
+{
+  "version": 2,
+  "defaultNote": "首页",
+  "useMoment": false,
+  "momentFormat": "YYYY-MM-DD",
+  "workspace": "首页",
+  "workspaceEnabled": true,
+  "hasRibbonIcon": true,
+  "openMode": "Replace all open notes",
+  "manualOpenMode": "Keep open notes",
+  "view": "Default view",
+  "revertView": true,
+  "refreshDataview": false,
+  "autoCreate": true,
+  "autoScroll": false,
+  "pin": false
+}

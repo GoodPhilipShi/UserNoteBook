@@ -1,0 +1,34 @@
+{
+  "settings": {
+    "migrated": true,
+    "iconPacksPath": ".obsidian/plugins/obsidian-icon-folder/icons",
+    "fontSize": 16,
+    "emojiStyle": "none",
+    "iconColor": null,
+    "recentlyUsedIcons": [
+      "FasB",
+      "FasN",
+      "SiApacheairflow",
+      "FabAngellist",
+      "SiRobotframework"
+    ],
+    "recentlyUsedIconsSize": 5,
+    "rules": [],
+    "extraMargin": {
+      "top": 0,
+      "right": 4,
+      "bottom": 0,
+      "left": 0
+    }
+  },
+  "前端": "SiHtml5",
+  "日记": "FasCalendarDay",
+  "备份": "FasB",
+  "工作笔记": "SiRobotframework",
+  "NAS鼓捣记录": "FasN",
+  "模板": "IbStatement",
+  "工作日程": "SiCountingworkspro",
+  "娱乐记录": "FabAngellist",
+  "杂七杂八": "SiApacheairflow",
+  "个人学习": "SiOnlyfans"
+}

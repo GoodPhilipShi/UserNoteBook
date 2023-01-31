@@ -1,0 +1,26 @@
+{
+  "markdown-prettifier:markdown-prettifier-run": [
+    {
+      "modifiers": [
+        "Mod",
+        "Alt"
+      ],
+      "key": "l"
+    },
+    {
+      "modifiers": [
+        "Mod"
+      ],
+      "key": "S"
+    }
+  ],
+  "markdown-prettifier:markdown-prettifier-update-fields": [
+    {
+      "modifiers": [
+        "Mod",
+        "Alt"
+      ],
+      "key": "o"
+    }
+  ]
+}

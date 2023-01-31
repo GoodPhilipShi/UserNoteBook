@@ -1,7 +1,7 @@
 ---
-title: Mind+在线服务相关
+title: Mind+ 在线服务相关
 date created: 星期一, 一月 30日 2023, 8:53:56 早上
-date modified: 星期一, 一月 30日 2023, 9:03:48 上午
+date modified: 星期一, 一月 30日 2023, 9:38:39 上午
 ---
 
 # Mind+ 在线服务相关
@@ -28,13 +28,13 @@ date modified: 星期一, 一月 30日 2023, 9:03:48 上午
 
 /etc/nginx/nginx.config
 
-```
+```nginx
 include ./conf/statistic.conf;
 ```
 
 /etc/nginx/conf/statistic.conf
 
-```
+```nginx
 location /online/api/weather {
       proxy_pass  http://server.mindplus.top/api/weather;
 }
@@ -46,7 +46,7 @@ location /online/api/weather {
 
 /etc/nginx/nginx.config
 
-```
+```nginx
 server {
     listen      80;
     server_name  server.mindplus.top;

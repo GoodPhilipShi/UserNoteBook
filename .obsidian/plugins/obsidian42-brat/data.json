@@ -1,0 +1,16 @@
+{
+  "pluginList": [
+    "Stardusten/ob-table-enhancer",
+    "obsidian-canzi/Enhanced-editing"
+  ],
+  "pluginSubListFrozenVersion": [],
+  "themesList": [],
+  "updateAtStartup": true,
+  "updateThemesAtStartup": false,
+  "ribbonIconEnabled": true,
+  "loggingEnabled": true,
+  "loggingPath": "BRAT-log",
+  "loggingVerboseEnabled": false,
+  "debuggingMode": true,
+  "notificationsEnabled": true
+}
