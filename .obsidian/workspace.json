@@ -56,7 +56,8 @@
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       },
       {
         "id": "416240aaac4cd8cf",
@@ -200,7 +201,7 @@
       "workspaces:管理工作区布局": false
     }
   },
-  "active": "5ce6bd3138c54180",
+  "active": "b79dfc5038267612",
   "lastOpenFiles": [
     "✨看板/✨看板.md",
     "日记/23年01月17日.md",

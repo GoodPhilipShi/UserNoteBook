@@ -1,0 +1,7 @@
+#page-wrapper > .memos-sidebar-wrapper {
+  transform: translateX(40px)!important;
+}
+
+.memos-sidebar-wrapper {
+  left: -40px
+}
