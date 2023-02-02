@@ -4,19 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "81beaf6bc323cabf",
+        "id": "d69c1f803e08d481",
         "type": "tabs",
         "children": [
           {
-            "id": "9fe330453c0ac724",
+            "id": "4d62a2bee8a997fe",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "kanban",
               "state": {
-                "file": "个人学习/CSS/盒子与定位.md",
-                "mode": "preview",
-                "backlinks": false,
-                "source": false
+                "file": "✨看板/✨看板.md"
               }
             }
           }
@@ -50,7 +47,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "编译",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -106,7 +103,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "个人学习/CSS/盒子与定位.md",
+                "file": "✨看板/✨看板.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -123,7 +120,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "个人学习/CSS/盒子与定位.md",
+                "file": "✨看板/✨看板.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -166,7 +163,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "个人学习/CSS/盒子与定位.md"
+                "file": "✨看板/✨看板.md"
               }
             }
           },
@@ -183,8 +180,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 382,
-    "collapsed": true
+    "width": 382
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -204,8 +200,9 @@
       "workspaces:管理工作区布局": false
     }
   },
-  "active": "9fe330453c0ac724",
+  "active": "5ce6bd3138c54180",
   "lastOpenFiles": [
+    "Paste image 1675238203624image.png",
     "个人学习/CSS/盒子与定位.md",
     "BRAT-log.md",
     "工作笔记/①Mind+兼容/龙芯系统+龙芯(misp64-3A4000)适配/龙芯系统+龙芯(misp64-3A4000)适配.md",
@@ -214,7 +211,6 @@
     "日记/23年01月16日.md",
     "日记/23年01月19日.md",
     "工作笔记/Scrach-Link/Scrach-Link.md",
-    "工作笔记/①Mind+兼容/统信系统+龙芯(loong64-3A5000)适配/统信系统+龙芯(loong64-3A5000)适配.md",
-    "工作笔记/①Mind+兼容/统信系统+amd64适配/统信系统+amd64适配.md"
+    "工作笔记/①Mind+兼容/统信系统+龙芯(loong64-3A5000)适配/统信系统+龙芯(loong64-3A5000)适配.md"
   ]
 }
