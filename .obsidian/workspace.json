@@ -11,9 +11,12 @@
             "id": "4d62a2bee8a997fe",
             "type": "leaf",
             "state": {
-              "type": "mindmapView",
+              "type": "markdown",
               "state": {
-                "file": "个人学习/CSS/盒子与定位.md"
+                "file": "个人学习/CSS/盒子与定位.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
               }
             }
           }
