@@ -11,9 +11,9 @@
             "id": "4d62a2bee8a997fe",
             "type": "leaf",
             "state": {
-              "type": "kanban",
+              "type": "mindmapView",
               "state": {
-                "file": "✨看板/✨看板.md"
+                "file": "个人学习/CSS/盒子与定位.md"
               }
             }
           }
@@ -103,7 +103,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "✨看板/✨看板.md",
+                "file": "个人学习/CSS/盒子与定位.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -120,7 +120,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "✨看板/✨看板.md",
+                "file": "个人学习/CSS/盒子与定位.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -163,7 +163,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "✨看板/✨看板.md"
+                "file": "个人学习/CSS/盒子与定位.md"
               }
             }
           },
@@ -200,7 +200,7 @@
       "workspaces:管理工作区布局": false
     }
   },
-  "active": "5ce6bd3138c54180",
+  "active": "4d62a2bee8a997fe",
   "lastOpenFiles": [
     "✨看板/✨看板.md",
     "✨看板/连接WeDo设备.md",
