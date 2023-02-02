@@ -1,6 +1,14 @@
 {
   "scanned": true,
-  "reminders": {},
+  "reminders": {
+    "✨看板/✨看板.md": [
+      {
+        "title": "加入Lorawan项目",
+        "time": "2023-02-22",
+        "rowNumber": 13
+      }
+    ]
+  },
   "debug": false,
   "settings": {
     "reminderTime": "09:00",
