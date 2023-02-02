@@ -1,6 +1,22 @@
 {
   "recentFiles": [
     {
+      "basename": "变量",
+      "path": "个人学习/Golang学习/3. Go 语言语法/变量.md"
+    },
+    {
+      "basename": "3. Go 语言语法",
+      "path": "个人学习/Golang学习/3. Go 语言语法/3. Go 语言语法.md"
+    },
+    {
+      "basename": "1. 什么是Go语言",
+      "path": "个人学习/Golang学习/1. 什么是Go语言.md"
+    },
+    {
+      "basename": "2. Go 语言环境搭建",
+      "path": "个人学习/Golang学习/2. Go 语言环境搭建.md"
+    },
+    {
       "basename": "盒子与定位",
       "path": "个人学习/CSS/盒子与定位.md"
     },
@@ -183,22 +199,6 @@
     {
       "basename": "神偷奶爸2",
       "path": "娱乐记录/影视/神偷奶爸2.md"
-    },
-    {
-      "basename": "乐高大电影",
-      "path": "娱乐记录/影视/乐高大电影.md"
-    },
-    {
-      "basename": "乐高大电影2",
-      "path": "娱乐记录/影视/乐高大电影2.md"
-    },
-    {
-      "basename": "狂人日记",
-      "path": "娱乐记录/阅读/狂人日记.md"
-    },
-    {
-      "basename": "神偷奶爸3",
-      "path": "娱乐记录/影视/神偷奶爸3.md"
     }
   ],
   "omittedPaths": [],
