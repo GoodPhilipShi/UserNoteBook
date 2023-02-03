@@ -1,8 +1,16 @@
 {
   "recentFiles": [
     {
+      "basename": "容器",
+      "path": "个人学习/Golang学习/3. Go 语言语法/容器.md"
+    },
+    {
       "basename": "变量",
       "path": "个人学习/Golang学习/3. Go 语言语法/变量.md"
+    },
+    {
+      "basename": "数据类型",
+      "path": "个人学习/Golang学习/3. Go 语言语法/数据类型.md"
     },
     {
       "basename": "3. Go 语言语法",
@@ -191,14 +199,6 @@
     {
       "basename": "数据列表",
       "path": "娱乐记录/数据列表.md"
-    },
-    {
-      "basename": "我和我的父辈",
-      "path": "娱乐记录/影视/我和我的父辈.md"
-    },
-    {
-      "basename": "神偷奶爸2",
-      "path": "娱乐记录/影视/神偷奶爸2.md"
     }
   ],
   "omittedPaths": [],

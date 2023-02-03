@@ -10,12 +10,6 @@
       "icon": "lucide-rotate-ccw",
       "name": "重新加载 Obsidian（不保存当前编辑内容）",
       "mode": "any"
-    },
-    {
-      "id": "obsidian-git:commit-specified-message",
-      "icon": "github",
-      "name": "Obsidian Git: Commit all changes with specific message",
-      "mode": "any"
     }
   ],
   "rightRibbon": [],
@@ -44,7 +38,8 @@
       "打开/创建今天的日记",
       "开始漫游笔记",
       "打开快速切换",
-      "打开 Markdown 格式转换器"
+      "打开 Markdown 格式转换器",
+      "Create new canvas"
     ]
   },
   "spacing": 8,
