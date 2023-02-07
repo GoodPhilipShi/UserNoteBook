@@ -1,6 +1,6 @@
 {
-  "enableButtonPanel": true,
+  "enableButtonPanel": false,
   "enableTableGenerator": false,
   "enableFloatingToolbar": true,
-  "adjustTableCellHeight": false
+  "adjustTableCellHeight": true
 }

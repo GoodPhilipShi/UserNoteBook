@@ -22,10 +22,10 @@
   "homepage",
   "obsidian-banners",
   "calendar",
-  "ob-table-enhancer",
   "table-editor-obsidian",
   "obsidian-icon-folder",
   "obsidian-excalidraw-plugin",
   "obsidian-enhancing-mindmap",
-  "obsidian-regex-pipeline"
+  "obsidian-regex-pipeline",
+  "ob-table-enhancer"
 ]
