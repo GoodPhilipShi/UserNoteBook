@@ -1,6 +1,14 @@
 {
   "recentFiles": [
     {
+      "basename": "连接WeDo设备",
+      "path": "✨看板/连接WeDo设备.md"
+    },
+    {
+      "basename": "✨看板",
+      "path": "✨看板/✨看板.md"
+    },
+    {
       "basename": "容器",
       "path": "个人学习/Golang学习/3. Go 语言语法/容器.md"
     },
@@ -27,14 +35,6 @@
     {
       "basename": "盒子与定位",
       "path": "个人学习/CSS/盒子与定位.md"
-    },
-    {
-      "basename": "✨看板",
-      "path": "✨看板/✨看板.md"
-    },
-    {
-      "basename": "连接WeDo设备",
-      "path": "✨看板/连接WeDo设备.md"
     },
     {
       "basename": "龙芯系统+龙芯(misp64-3A4000)适配",
