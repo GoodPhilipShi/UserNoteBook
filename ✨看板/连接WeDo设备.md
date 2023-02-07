@@ -22,3 +22,12 @@ ws.onopen = () => {
     ws.send(JSON.stringify({"jsonrpc":"2.0","method":"discover","params":{"filters":[{"services":["00001523-1212-efde-1523-785feabcd123"]}],"optionalServices":["00004f0e-1212-efde-1523-785feabcd123"]},"id":0}))
 }
 ```
+
+
+## 测试结果
+
+| 系统      |scratch-link 版本| 测试次数 | 成功次数 | 比例 | 失败原因         |
+| --------- | ----------------- | -------- | -------- | ---- | ---------------- |
+| Windows10 | 1.4.3.0           | 3        | 2        |      | wedo熄灯了       |
+| Windows11 | 1.4.3.0           | 3        | 1        |      | 忘了插蓝牙接收器 |
+|Windows7|1.4.3.0|0|0|      |  |

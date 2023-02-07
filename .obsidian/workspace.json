@@ -8,19 +8,33 @@
         "type": "tabs",
         "children": [
           {
-            "id": "4d62a2bee8a997fe",
+            "id": "7de596e0444aa949",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
                 "file": "✨看板/连接WeDo设备.md",
-                "mode": "preview",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "4e1a672553aa0790",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "工作笔记/②Mind+添加/scratch-block/添加积木全过程.md",
+                "mode": "source",
                 "backlinks": false,
                 "source": false
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -106,7 +120,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "✨看板/连接WeDo设备.md",
+                "file": "工作笔记/②Mind+添加/scratch-block/添加积木全过程.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -123,7 +137,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "✨看板/连接WeDo设备.md",
+                "file": "工作笔记/②Mind+添加/scratch-block/添加积木全过程.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -166,7 +180,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "✨看板/连接WeDo设备.md"
+                "file": "工作笔记/②Mind+添加/scratch-block/添加积木全过程.md"
               }
             }
           },
@@ -203,17 +217,17 @@
       "workspaces:管理工作区布局": false
     }
   },
-  "active": "4d62a2bee8a997fe",
+  "active": "4e1a672553aa0790",
   "lastOpenFiles": [
+    "✨看板/连接WeDo设备.md",
     "✨看板/✨看板.md",
+    "工作笔记/②Mind+添加/scratch-block/添加积木全过程.md",
     "个人学习/Golang学习/3. Go 语言语法/变量.md",
     "个人学习/Golang学习/3. Go 语言语法/数据类型.md",
     "个人学习/Golang学习/3. Go 语言语法/3. Go 语言语法.md",
     "个人学习/Golang学习/1. 什么是Go语言.md",
     "个人学习/Golang学习/2. Go 语言环境搭建.md",
     "个人学习/CSS/盒子与定位.md",
-    "✨看板/连接WeDo设备.md",
-    "Paste image 1675238203624image.png",
-    "BRAT-log.md"
+    "Paste image 1675238203624image.png"
   ]
 }
