@@ -113,7 +113,7 @@
       "Removes consecutive list markers. Useful when copy-pasting list items.": true
     },
     "Remove Empty List Markers": {
-      "Removes empty list markers, i.e. list items without content.": false
+      "Removes empty list markers, i.e. list items without content.": true
     },
     "Remove Hyphenated Line Breaks": {
       "Removes hyphenated line breaks. Useful when pasting text from textbooks.": false
