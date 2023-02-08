@@ -3,11 +3,11 @@
   "cssTheme": "AnuPpuccin",
   "theme": "moonstone",
   "enabledCssSnippets": [
+    "yaozhuwa@CSS",
+    "优化标题",
     "淡化视图切换控件",
     "custom-admonitions.dac0b7",
-    "extended-colorschemes",
-    "优化标题",
-    "yaozhuwa@CSS"
+    "extended-colorschemes"
   ],
   "translucency": false,
   "accentColor": "#3381ff",
