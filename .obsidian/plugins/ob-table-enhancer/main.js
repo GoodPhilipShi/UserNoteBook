@@ -1128,8 +1128,8 @@ var DEFAULT_SETTINGS = {
   adjustTableCellHeight: true
 };
 var TableEnhancer2SettingTab = class extends import_obsidian6.PluginSettingTab {
-  constructor(app, plugin) {
-    super(app, plugin);
+  constructor(app2, plugin) {
+    super(app2, plugin);
     this.plugin = plugin;
   }
   display() {
@@ -1243,7 +1243,6 @@ function getKeydownHandler(plugin) {
     const editor = markdownView.editor;
     const editorView = editor == null ? void 0 : editor.cm;
     if (!editor.hasFocus()) {
-      console.log(e);
       if (!e.repeat && e.ctrlKey && e.key == "z") {
         e.stopPropagation();
         e.preventDefault();
@@ -1290,7 +1289,7 @@ function getKeydownHandler(plugin) {
     if (e.key == "ArrowLeft") {
       const caretPos = getCaretPosition(cellEl);
       const { tableLine, i, j } = getCellInfo(cellEl, plugin, tableEl);
-      if (caretPos == 0) {
+      if (cellEl.innerText.length == 0 || caretPos == 0) {
         e.preventDefault();
         const tablePos = editorView.posAtDOM(tableEl);
         await plugin.doneEdit(cellEl);
@@ -1552,6 +1551,7 @@ var getCommands = (plugin) => {
       const succText = cellEl.innerText.slice(selectionEnd);
       cellEl.innerText = [prevText, "==", selectText, "==", succText].join("");
       setCaretPosition(cellEl, selectionEnd + 4);
+      return true;
     }),
     "editor:toggle-numbered-list": () => withEditingCell((cellEl) => {
       return null;
@@ -1573,6 +1573,7 @@ var getCommands = (plugin) => {
       const succText = cellEl.innerText.slice(selectionEnd);
       cellEl.innerText = [prevText, "~~", selectText, "~~", succText].join("");
       setCaretPosition(cellEl, selectionEnd + 4);
+      return true;
     })
   };
 };
@@ -1594,18 +1595,21 @@ var TableEnhancer2 = class extends import_obsidian9.Plugin {
       this.registerDomEvent(window, "click", clickHandler, true);
       const keydownHandler = getKeydownHandler(this);
       this.registerDomEvent(window, "keydown", keydownHandler, true);
-      const commands = getCommands(this);
-      this.register(around(this.app.commands, {
+      this.register(around(app.commands, {
         executeCommand(next) {
           return function(command) {
-            var _a;
-            if (!((_a = commands[command.id]) == null ? void 0 : _a.call()))
-              next.call(this, command);
+            const commands = getCommands(this);
+            const callback = commands[command.id];
+            if (callback == null ? void 0 : callback.call(this)) {
+              return;
+            }
+            return next.call(this, command);
           };
         }
       }));
     });
     this.registerEvent(this.app.workspace.on("editor-menu", (menu, editor) => {
+      menu.setUseNativeMenu(false);
       const hoveredCell = activeDocument.querySelector("." + hoveredCellClassName);
       if (!(hoveredCell instanceof HTMLTableCellElement)) {
         if (this.settings.enableTableGenerator)
