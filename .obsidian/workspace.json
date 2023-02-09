@@ -11,9 +11,12 @@
             "id": "4d62a2bee8a997fe",
             "type": "leaf",
             "state": {
-              "type": "kanban",
+              "type": "markdown",
               "state": {
-                "file": "✨看板/✨看板.md"
+                "file": "杂七杂八/个人项目/本地化插件/本地化插件.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
               }
             }
           }
@@ -84,7 +87,7 @@
       {
         "id": "50eaf962fc4b7630",
         "type": "tabs",
-        "dimension": 21.372549019607842,
+        "dimension": 24.18379685610641,
         "children": [
           {
             "id": "659708b02f08e044",
@@ -103,7 +106,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "✨看板/✨看板.md",
+                "file": "杂七杂八/个人项目/本地化插件/本地化插件.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -120,7 +123,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "✨看板/✨看板.md",
+                "file": "杂七杂八/个人项目/本地化插件/本地化插件.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -140,7 +143,7 @@
       {
         "id": "8b35e3d291b3b526",
         "type": "tabs",
-        "dimension": 34.31372549019608,
+        "dimension": 33.01088270858525,
         "children": [
           {
             "id": "de43a196f7ed774c",
@@ -155,7 +158,7 @@
       {
         "id": "ae9e147ae897ad94",
         "type": "tabs",
-        "dimension": 44.31372549019608,
+        "dimension": 42.80532043530834,
         "children": [
           {
             "id": "2943167445a2b71e",
@@ -163,7 +166,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "✨看板/✨看板.md"
+                "file": "杂七杂八/个人项目/本地化插件/本地化插件.md"
               }
             }
           },
@@ -200,17 +203,17 @@
       "workspaces:管理工作区布局": false
     }
   },
-  "active": "5ce6bd3138c54180",
+  "active": "4d62a2bee8a997fe",
   "lastOpenFiles": [
+    "杂七杂八/个人项目/Obsidian插件自动翻译程序.md",
     "个人学习/Obsidian/用法/Callouts 用法.md",
-    "杂七杂八/XMind 22.11.3656 最新版本破解方法.md",
+    "BRAT-log.md",
     "✨看板/✨看板.md",
+    "杂七杂八/XMind 22.11.3656 最新版本破解方法.md",
     "工作笔记/②Mind+添加/scratch-block/添加积木全过程.md",
     "✨看板/连接WeDo设备.md",
     "个人学习/Golang学习/3. Go 语言语法/变量.md",
     "个人学习/Golang学习/3. Go 语言语法/数据类型.md",
-    "个人学习/Golang学习/3. Go 语言语法/3. Go 语言语法.md",
-    "个人学习/Golang学习/1. 什么是Go语言.md",
-    "个人学习/Golang学习/2. Go 语言环境搭建.md"
+    "个人学习/Golang学习/3. Go 语言语法/3. Go 语言语法.md"
   ]
 }

@@ -27,5 +27,7 @@
   "obsidian-excalidraw-plugin",
   "obsidian-enhancing-mindmap",
   "obsidian-regex-pipeline",
-  "ob-table-enhancer"
+  "ob-table-enhancer",
+  "obsidian-local-images-plus",
+  "nn-delete-image-in-use"
 ]

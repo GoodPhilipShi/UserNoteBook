@@ -1,0 +1,1 @@
+{"id":"nn-delete-image-in-use","name":"Delete Image In Use","version":"0.0.1","minAppVersion":"0.15.4","description":"When you right-click on an image with your mouse, you can tap the context menu item to easily delete the image file and remove the link in use from a Markdown document.","author":"Nathanie","authorUrl":"https://obsidian.md","isDesktopOnly":true}
