@@ -66,16 +66,8 @@ function getCellText(table, i, j) {
   return result;
 }
 function getCellInfo(cellEl, plugin, tableEl, editorView) {
-  if (!tableEl) {
-    let parent = cellEl.parentNode;
-    while (parent) {
-      if (parent instanceof HTMLTableElement)
-        break;
-      parent = parent.parentNode;
-    }
-    if (parent)
-      tableEl = parent;
-  }
+  if (!tableEl)
+    tableEl = getTableOfCell(cellEl);
   if (!tableEl) {
     console.error("Cannot get table element of cell ", cellEl);
     return;
@@ -91,6 +83,16 @@ function getCellInfo(cellEl, plugin, tableEl, editorView) {
   const i = trEl.rowIndex;
   const j = cellEl.cellIndex;
   return { tableLine, i, j };
+}
+function getTableOfCell(cellEl) {
+  let parent = cellEl.parentNode;
+  while (parent) {
+    if (parent instanceof HTMLTableElement)
+      break;
+    parent = parent.parentNode;
+  }
+  if (parent)
+    return parent;
 }
 function getCellEl(tablePos, i, j, plugin) {
   var _a;
@@ -959,6 +961,18 @@ var addButtons = (menu, plugin, { tableLine, i, j }) => {
       }
       await plugin.tableEditor.deleteRow(table, i);
     }).then((button) => button.buttonEl.innerHTML = delRow);
+    new import_obsidian4.ButtonComponent(containerEl).setTooltip("Wider").setIcon("chevrons-left-right").setClass("clickable-icon").onClick(async (e) => {
+      await plugin.doneEdit();
+      const table = plugin.tableEditor.getTable(tableLine);
+      if (!table) {
+        console.error("cannot locate table when trying sort table ");
+        return;
+      }
+      e.stopPropagation();
+      e.preventDefault();
+      const oldContent = table.cells[0][j];
+      await plugin.tableEditor.updateCell(table, 0, j, oldContent + "\u2007");
+    });
     new import_obsidian4.ButtonComponent(containerEl).setTooltip("Delete column").setClass("clickable-icon").onClick(async () => {
       await plugin.doneEdit();
       const table = plugin.tableEditor.getTable(tableLine);
@@ -1022,6 +1036,18 @@ var addButtons = (menu, plugin, { tableLine, i, j }) => {
       }
       await plugin.tableEditor.swapRows(table, i, i + 1);
     });
+    new import_obsidian4.ButtonComponent(containerEl).setTooltip("Narrower").setIcon("chevrons-right-left").setClass("clickable-icon").onClick(async (e) => {
+      await plugin.doneEdit();
+      const table = plugin.tableEditor.getTable(tableLine);
+      if (!table) {
+        console.error("cannot locate table when trying sort table ");
+        return;
+      }
+      e.stopPropagation();
+      e.preventDefault();
+      const newContent = table.cells[0][j].replace(/ $/, "");
+      await plugin.tableEditor.updateCell(table, 0, j, newContent);
+    });
     const setColAlign = (aligned) => async () => {
       await plugin.doneEdit();
       const table = plugin.tableEditor.getTable(tableLine);
@@ -1051,6 +1077,18 @@ var addButtons = (menu, plugin, { tableLine, i, j }) => {
         return;
       }
       await plugin.tableEditor.sortByCol(table, j, "desc");
+    });
+    new import_obsidian4.ButtonComponent(containerEl).setTooltip("Reset Column Width").setIcon("undo-2").setClass("clickable-icon").onClick(async (e) => {
+      await plugin.doneEdit();
+      const table = plugin.tableEditor.getTable(tableLine);
+      if (!table) {
+        console.error("cannot locate table when trying sort table ");
+        return;
+      }
+      e.stopPropagation();
+      e.preventDefault();
+      const newContent = table.cells[0][j].trimRight();
+      await plugin.tableEditor.updateCell(table, 0, j, newContent);
     });
     const dividerEl = createDiv({ cls: "menu-separator" });
     menuDom.prepend(dividerEl);
@@ -1162,9 +1200,20 @@ var TableEnhancer2SettingTab = class extends import_obsidian6.PluginSettingTab {
 // src/tableHoverPostProcessor.ts
 function getTableHoverPostProcessor(plugin) {
   return (el) => {
+    var _a;
     const tables = el.getElementsByTagName("table");
     for (let i = 0; i < tables.length; i++) {
       const table = tables[i];
+      const headers = table.rows[0].cells;
+      for (let i2 = 0; i2 < headers.length; i2++) {
+        const headerCell = headers[i2];
+        const oldHtml = headerCell.innerHTML;
+        const spaceCnt = (_a = oldHtml.match(/ +$/)) == null ? void 0 : _a[0].length;
+        if (spaceCnt) {
+          headerCell.innerHTML = oldHtml.slice(0, -spaceCnt);
+          headerCell.style.width = String(5 + spaceCnt * 2) + "%";
+        }
+      }
       for (let i2 = 0; i2 < table.rows.length; i2++) {
         const row = table.rows[i2];
         for (let j = 0; j < row.cells.length; j++) {
@@ -1183,7 +1232,7 @@ function getTableHoverPostProcessor(plugin) {
 
 // src/mousedownHandler.ts
 var import_obsidian7 = require("obsidian");
-function getMousedownHandler(plugin) {
+function getClickHandler(plugin) {
   return async (e) => {
     if (plugin.isInReadingView())
       return;
@@ -1191,14 +1240,8 @@ function getMousedownHandler(plugin) {
     const editor = markdownView == null ? void 0 : markdownView.editor;
     const editorView = editor == null ? void 0 : editor.cm;
     const cellEl = e.targetNode;
-    if (!(cellEl instanceof HTMLTableCellElement)) {
-      const editingCell2 = activeDocument.querySelector("." + editingCellClassName);
-      if (editingCell2 instanceof HTMLTableCellElement) {
-        await plugin.doneEdit(editingCell2);
-        editor == null ? void 0 : editor.focus();
-      }
+    if (!(cellEl instanceof HTMLTableCellElement))
       return;
-    }
     e.stopImmediatePropagation();
     e.preventDefault();
     let tableEl = cellEl.parentNode;
@@ -1230,6 +1273,21 @@ function getMousedownHandler(plugin) {
       }
       plugin.setCellEditing(newCellEl, tableLine, i, j);
     }, 50);
+  };
+}
+function getMousedownHandler(plugin) {
+  return async (e) => {
+    const markdownView = plugin.app.workspace.getActiveViewOfType(import_obsidian7.MarkdownView);
+    const editor = markdownView == null ? void 0 : markdownView.editor;
+    const cellEl = e.targetNode;
+    if (!(cellEl instanceof HTMLTableCellElement)) {
+      const editingCell = activeDocument.querySelector("." + editingCellClassName);
+      if (editingCell instanceof HTMLTableCellElement) {
+        await plugin.doneEdit(editingCell);
+        editor == null ? void 0 : editor.focus();
+      }
+      return;
+    }
   };
 }
 
@@ -1591,7 +1649,9 @@ var TableEnhancer2 = class extends import_obsidian9.Plugin {
     this.app.workspace.onLayoutReady(() => {
       if (this.settings.adjustTableCellHeight)
         activeDocument.body.addClass("table-height-adjust");
-      const clickHandler = getMousedownHandler(this);
+      const mousedownHandler = getMousedownHandler(this);
+      this.registerDomEvent(window, "mousedown", mousedownHandler, true);
+      const clickHandler = getClickHandler(this);
       this.registerDomEvent(window, "click", clickHandler, true);
       const keydownHandler = getKeydownHandler(this);
       this.registerDomEvent(window, "keydown", keydownHandler, true);
@@ -1657,7 +1717,7 @@ var TableEnhancer2 = class extends import_obsidian9.Plugin {
       console.error("Cannot get table when trying to done edit");
       return;
     }
-    await this.tableEditor.updateCell(table, i, j, cellEl.innerText.trim());
+    await this.tableEditor.updateCell(table, i, j, cellEl.innerText);
   }
   isInReadingView() {
     const markdownView = this.app.workspace.getActiveViewOfType(import_obsidian9.MarkdownView);

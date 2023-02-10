@@ -1,6 +1,10 @@
 {
   "recentFiles": [
     {
+      "basename": "✨看板",
+      "path": "✨看板/✨看板.md"
+    },
+    {
       "basename": "导出",
       "path": "个人学习/代码片段/工具类/导出.md"
     },
@@ -19,10 +23,6 @@
     {
       "basename": "项目导出导入功能",
       "path": "✨看板/项目导出导入功能.md"
-    },
-    {
-      "basename": "✨看板",
-      "path": "✨看板/✨看板.md"
     },
     {
       "basename": "本地化插件",

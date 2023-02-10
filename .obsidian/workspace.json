@@ -11,30 +11,13 @@
             "id": "4d62a2bee8a997fe",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "kanban",
               "state": {
-                "file": "杂七杂八/归档/Python 学习/python 对 GPIO的应用.md",
-                "mode": "preview",
-                "backlinks": false,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "722b4eabcc37764d",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "个人学习/代码片段/工具类/导出.md",
-                "mode": "source",
-                "backlinks": false,
-                "source": false
+                "file": "✨看板/✨看板.md"
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -64,7 +47,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "导出",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -101,7 +84,7 @@
       {
         "id": "50eaf962fc4b7630",
         "type": "tabs",
-        "dimension": 24.18379685610641,
+        "dimension": 21.372549019607842,
         "children": [
           {
             "id": "659708b02f08e044",
@@ -120,7 +103,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "个人学习/代码片段/工具类/导出.md",
+                "file": "✨看板/✨看板.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -137,7 +120,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "个人学习/代码片段/工具类/导出.md",
+                "file": "✨看板/✨看板.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -157,7 +140,7 @@
       {
         "id": "8b35e3d291b3b526",
         "type": "tabs",
-        "dimension": 33.01088270858525,
+        "dimension": 34.31372549019608,
         "children": [
           {
             "id": "de43a196f7ed774c",
@@ -172,7 +155,7 @@
       {
         "id": "ae9e147ae897ad94",
         "type": "tabs",
-        "dimension": 42.80532043530834,
+        "dimension": 44.31372549019608,
         "children": [
           {
             "id": "2943167445a2b71e",
@@ -180,7 +163,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "个人学习/代码片段/工具类/导出.md"
+                "file": "✨看板/✨看板.md"
               }
             }
           },
@@ -217,7 +200,7 @@
       "workspaces:管理工作区布局": false
     }
   },
-  "active": "722b4eabcc37764d",
+  "active": "5ce6bd3138c54180",
   "lastOpenFiles": [
     "杂七杂八/归档/Python 学习/python 对 GPIO的应用.md",
     "杂七杂八/归档/Python 学习/python Flask服务器编程.md",
