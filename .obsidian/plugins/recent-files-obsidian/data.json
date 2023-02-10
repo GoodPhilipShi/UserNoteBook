@@ -1,6 +1,30 @@
 {
   "recentFiles": [
     {
+      "basename": "导出",
+      "path": "个人学习/代码片段/工具类/导出.md"
+    },
+    {
+      "basename": "python 对 GPIO的应用",
+      "path": "杂七杂八/归档/Python 学习/python 对 GPIO的应用.md"
+    },
+    {
+      "basename": "python Flask服务器编程",
+      "path": "杂七杂八/归档/Python 学习/python Flask服务器编程.md"
+    },
+    {
+      "basename": "React 组件合并导出",
+      "path": "前端/React/React 组件合并导出.md"
+    },
+    {
+      "basename": "项目导出导入功能",
+      "path": "✨看板/项目导出导入功能.md"
+    },
+    {
+      "basename": "✨看板",
+      "path": "✨看板/✨看板.md"
+    },
+    {
       "basename": "本地化插件",
       "path": "杂七杂八/个人项目/本地化插件/本地化插件.md"
     },
@@ -11,10 +35,6 @@
     {
       "basename": "Callouts 用法",
       "path": "个人学习/Obsidian/用法/Callouts 用法.md"
-    },
-    {
-      "basename": "✨看板",
-      "path": "✨看板/✨看板.md"
     },
     {
       "basename": "XMind 22.11.3656 最新版本破解方法",
@@ -113,10 +133,6 @@
       "path": "杂七杂八/归档/Python 学习/python MySQLdb模块的使用.md"
     },
     {
-      "basename": "python Flask服务器编程",
-      "path": "杂七杂八/归档/Python 学习/python Flask服务器编程.md"
-    },
-    {
       "basename": "用户数据库",
       "path": "工作笔记/用户数据库/用户数据库.md"
     },
@@ -161,10 +177,6 @@
       "path": "个人学习/Obsidian/用法/用法.md"
     },
     {
-      "basename": "项目导出导入功能",
-      "path": "✨看板/项目导出导入功能.md"
-    },
-    {
       "basename": "编写Node-Red插件",
       "path": "工作笔记/Lorawan项目/编写Node-Red插件/编写Node-Red插件.md"
     },
@@ -187,18 +199,6 @@
     {
       "basename": "兼容笔记模板",
       "path": "模板/兼容笔记模板.md"
-    },
-    {
-      "basename": "Xcode下载地址全收集",
-      "path": "杂七杂八/Xcode下载地址全收集.md"
-    },
-    {
-      "basename": "Youtube下载网站",
-      "path": "杂七杂八/Youtube下载网站.md"
-    },
-    {
-      "basename": "身份证收集",
-      "path": "杂七杂八/身份证收集.md"
     }
   ],
   "omittedPaths": [],
