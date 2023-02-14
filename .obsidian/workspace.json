@@ -4,16 +4,19 @@
     "type": "split",
     "children": [
       {
-        "id": "d69c1f803e08d481",
+        "id": "3561601efa8f31e0",
         "type": "tabs",
         "children": [
           {
-            "id": "4d62a2bee8a997fe",
+            "id": "e496e8efbddf5838",
             "type": "leaf",
             "state": {
-              "type": "kanban",
+              "type": "markdown",
               "state": {
-                "file": "✨看板/✨看板.md"
+                "file": "工作笔记/Scrach-Link/Scrach-Link.md",
+                "mode": "preview",
+                "backlinks": false,
+                "source": false
               }
             }
           }
@@ -103,7 +106,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "✨看板/✨看板.md",
+                "file": "工作笔记/Scrach-Link/Scrach-Link.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -120,7 +123,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "✨看板/✨看板.md",
+                "file": "工作笔记/Scrach-Link/Scrach-Link.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -163,7 +166,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "✨看板/✨看板.md"
+                "file": "工作笔记/Scrach-Link/Scrach-Link.md"
               }
             }
           },
@@ -175,8 +178,7 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -200,17 +202,17 @@
       "workspaces:管理工作区布局": false
     }
   },
-  "active": "5ce6bd3138c54180",
+  "active": "e496e8efbddf5838",
   "lastOpenFiles": [
-    "杂七杂八/归档/Python 学习/python 对 GPIO的应用.md",
-    "杂七杂八/归档/Python 学习/python Flask服务器编程.md",
-    "前端/React/React 组件合并导出.md",
-    "✨看板/项目导出导入功能.md",
-    "✨看板/✨看板.md",
-    "杂七杂八/个人项目/本地化插件/本地化插件.md",
-    "杂七杂八/个人项目/Obsidian插件自动翻译程序.md",
-    "个人学习/Obsidian/用法/Callouts 用法.md",
-    "BRAT-log.md",
-    "杂七杂八/XMind 22.11.3656 最新版本破解方法.md"
+    "工作笔记/Scrach-Link/image-20230214102057571.png",
+    "工作笔记/Scrach-Link/image-20230214102225569.png",
+    "工作笔记/Scrach-Link/Scrach-Link.md",
+    "工作笔记/Scrach-Link/Pasted image 20230214101125.png",
+    "杂七杂八/问题/文件乱码.md",
+    "模板/阅读模板.md",
+    "模板/日记模板.md",
+    "模板/影视模板.md",
+    "模板/兼容笔记模板.md",
+    "模板/个人项目模板.md"
   ]
 }

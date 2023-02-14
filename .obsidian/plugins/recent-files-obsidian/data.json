@@ -1,6 +1,50 @@
 {
   "recentFiles": [
     {
+      "basename": "Scrach-Link",
+      "path": "工作笔记/Scrach-Link/Scrach-Link.md"
+    },
+    {
+      "basename": "image-20230214102057571",
+      "path": "工作笔记/Scrach-Link/image-20230214102057571.png"
+    },
+    {
+      "basename": "image-20230214102225569",
+      "path": "工作笔记/Scrach-Link/image-20230214102225569.png"
+    },
+    {
+      "basename": "Pasted image 20230214101125",
+      "path": "工作笔记/Scrach-Link/Pasted image 20230214101125.png"
+    },
+    {
+      "basename": "文件乱码",
+      "path": "杂七杂八/问题/文件乱码.md"
+    },
+    {
+      "basename": "阅读模板",
+      "path": "模板/阅读模板.md"
+    },
+    {
+      "basename": "日记模板",
+      "path": "模板/日记模板.md"
+    },
+    {
+      "basename": "影视模板",
+      "path": "模板/影视模板.md"
+    },
+    {
+      "basename": "兼容笔记模板",
+      "path": "模板/兼容笔记模板.md"
+    },
+    {
+      "basename": "个人项目模板",
+      "path": "模板/个人项目模板.md"
+    },
+    {
+      "basename": "Webpack学习",
+      "path": "个人学习/Webpack学习/Webpack学习.md"
+    },
+    {
       "basename": "✨看板",
       "path": "✨看板/✨看板.md"
     },
@@ -97,10 +141,6 @@
       "path": "日记/23年01月19日.md"
     },
     {
-      "basename": "Scrach-Link",
-      "path": "工作笔记/Scrach-Link/Scrach-Link.md"
-    },
-    {
       "basename": "统信系统+龙芯(loong64-3A5000)适配",
       "path": "工作笔记/①Mind+兼容/统信系统+龙芯(loong64-3A5000)适配/统信系统+龙芯(loong64-3A5000)适配.md"
     },
@@ -153,52 +193,12 @@
       "path": "个人学习/React-Router-dom V6/React-Router-dom V6.md"
     },
     {
-      "basename": "Webpack学习",
-      "path": "个人学习/Webpack学习/Webpack学习.md"
-    },
-    {
       "basename": "项目合作",
       "path": "工作笔记/项目合作.md"
     },
     {
       "basename": "评测理论永久VIP",
       "path": "✨看板/评测理论永久VIP.md"
-    },
-    {
-      "basename": "首页.excalidraw",
-      "path": "杂七杂八/个人项目/百宝箱/页面设计/首页.excalidraw.md"
-    },
-    {
-      "basename": "路由器集中管理",
-      "path": "杂七杂八/个人项目/百宝箱/实现片段/路由器集中管理.md"
-    },
-    {
-      "basename": "用法",
-      "path": "个人学习/Obsidian/用法/用法.md"
-    },
-    {
-      "basename": "编写Node-Red插件",
-      "path": "工作笔记/Lorawan项目/编写Node-Red插件/编写Node-Red插件.md"
-    },
-    {
-      "basename": "个人项目模板",
-      "path": "模板/个人项目模板.md"
-    },
-    {
-      "basename": "影视模板",
-      "path": "模板/影视模板.md"
-    },
-    {
-      "basename": "阅读模板",
-      "path": "模板/阅读模板.md"
-    },
-    {
-      "basename": "日记模板",
-      "path": "模板/日记模板.md"
-    },
-    {
-      "basename": "兼容笔记模板",
-      "path": "模板/兼容笔记模板.md"
     }
   ],
   "omittedPaths": [],
