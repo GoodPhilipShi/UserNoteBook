@@ -16,8 +16,22 @@
                 "file": "✨看板/✨看板.md"
               }
             }
+          },
+          {
+            "id": "9c9e44d535213c84",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "个人学习/规范/GitFlow Commit规定.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
+              }
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -103,7 +117,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "✨看板/✨看板.md",
+                "file": "个人学习/规范/GitFlow Commit规定.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -120,7 +134,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "✨看板/✨看板.md",
+                "file": "个人学习/规范/GitFlow Commit规定.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -156,7 +170,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "✨看板/✨看板.md"
+                "file": "个人学习/规范/GitFlow Commit规定.md"
               }
             }
           },
@@ -193,10 +207,10 @@
       "workspaces:管理工作区布局": false
     }
   },
-  "active": "de43a196f7ed774c",
+  "active": "9c9e44d535213c84",
   "lastOpenFiles": [
-    "工作笔记/Lorawan项目/编写Node-Red插件/编写Node-Red插件.md",
     "✨看板/✨看板.md",
+    "工作笔记/Lorawan项目/编写Node-Red插件/编写Node-Red插件.md",
     "工作笔记/Scrach-Link/Scrach-Link.md",
     "工作笔记/Scrach-Link/image-20230214102057571.png",
     "工作笔记/Scrach-Link/image-20230214102225569.png",
