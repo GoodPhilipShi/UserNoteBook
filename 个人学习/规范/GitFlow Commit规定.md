@@ -1,7 +1,7 @@
 ---
-title: Contributing to Angular 为 Angular 做贡献
+title: Contributing to Angular 为 Angular 做贡献
 date created: 星期四, 二月 16日 2023, 2:50:01 下午
-date modified: 星期四, 二月 16日 2023, 2:57:13 下午
+date modified: 星期四, 二月 16日 2023, 3:51:00 下午
 ---
 
 > [!info] angular 规范
@@ -46,12 +46,12 @@ To save your and our time, we will systematically close all issues that are requ
 If you would like to chat about the question in real-time, you can reach out via [our Discord server](https://discord.gg/angular).  
 如果您想实时讨论该问题，可以通过我们的联系 不和谐服务器 .
 
-## [](https://github.com/angular/angular/blob/main/CONTRIBUTING.md#-found-a-bug)Found A Bug? 发现了错误？
+## Found A Bug? 发现了错误？
 
 If you find a bug in the source code, you can help us by [submitting an issue](https://github.com/angular/angular/blob/main/CONTRIBUTING.md#submit-issue) to our [GitHub Repository](https://github.com/angular/angular). Even better, you can [submit a Pull Request](https://github.com/angular/angular/blob/main/CONTRIBUTING.md#submit-pr) with a fix.  
 如果您在源代码中发现错误，您可以通过将问题提交到我们的 GitHub 存储库来帮助我们。更好的是，您可以提交带有修复程序的拉取请求。
 
-## [](https://github.com/angular/angular/blob/main/CONTRIBUTING.md#-missing-a-feature)Missing A Feature? 缺少功能？
+## Missing A Feature? 缺少功能？
 
 You can _request_ a new feature by [submitting an issue](https://github.com/angular/angular/blob/main/CONTRIBUTING.md#submit-issue) to our GitHub Repository. If you would like to _implement_ a new feature, please consider the size of the change in order to determine the right steps to proceed:  
 您可以通过向我们的 GitHub 存储库提交问题来请求新功能。如果您想实现新功能，请考虑更改的大小，以确定正确的步骤：
@@ -66,9 +66,9 @@ You can _request_ a new feature by [submitting an issue](https://github.com/a
     可以制作小功能并直接作为拉取请求提交。
     
 
-## [](https://github.com/angular/angular/blob/main/CONTRIBUTING.md#-submission-guidelines)Submission Guidelines 提交指南
+## Submission Guidelines 提交指南
 
-### [](https://github.com/angular/angular/blob/main/CONTRIBUTING.md#-submitting-an-issue)Submitting An Issue 提交问题
+### Submitting An Issue 提交问题
 
 Before you submit an issue, please search the issue tracker. An issue for your problem might already exist and the discussion might inform you of workarounds readily available.  
 在提交问题之前，请搜索问题跟踪器。您的问题可能已经存在，讨论可能会告知您随时可用的解决方法。
@@ -88,7 +88,7 @@ Unfortunately, we are not able to investigate / fix bugs without a minimal repro
 You can file new issues by selecting from our [new issue templates](https://github.com/angular/angular/issues/new/choose) and filling out the issue template.  
 您可以通过从我们的新问题模板中进行选择并填写问题模板来提交新问题。
 
-### [](https://github.com/angular/angular/blob/main/CONTRIBUTING.md#-submitting-a-pull-request-pr)Submitting A Pull Request (PR)
+### Submitting A Pull Request (PR)
 
 提交拉取请求 （PR）
 
@@ -137,12 +137,12 @@ Before you submit your Pull Request (PR) consider the following guidelines:
     在 GitHub 中，向 发送拉取请求。 `angular:main`
     
 
-### [](https://github.com/angular/angular/blob/main/CONTRIBUTING.md#reviewing-a-pull-request)Reviewing A Pull Request 查看拉取请求
+### Reviewing A Pull Request 查看拉取请求
 
 The Angular team reserves the right not to accept pull requests from community members who haven't been good citizens of the community. Such behavior includes not following the [Angular code of conduct](https://github.com/angular/code-of-conduct) and applies within or outside of Angular managed channels.  
 Angular 团队保留不接受来自不是社区好公民的社区成员的拉取请求的权利。此类行为包括不遵守 Angular 行为准则，并且适用于 Angular 托管渠道内部或外部。
 
-#### [](https://github.com/angular/angular/blob/main/CONTRIBUTING.md#addressing-review-feedback)Addressing Review Feedback 处理审阅反馈
+#### Addressing Review Feedback 处理审阅反馈
 
 If we ask for changes via code reviews then:  
 如果我们通过代码审查要求更改，那么：
@@ -166,7 +166,7 @@ If we ask for changes via code reviews then:
 That's it! Thank you for your contribution!  
 就是这样！感谢您的贡献！
 
-##### [](https://github.com/angular/angular/blob/main/CONTRIBUTING.md#updating-the-commit-message)Updating The Commit Message 更新提交消息
+##### Updating The Commit Message 更新提交消息
 
 A reviewer might often suggest changes to a commit message (for example, to add more context for a change or adhere to our [commit message guidelines](https://github.com/angular/angular/blob/main/CONTRIBUTING.md#commit)). In order to update the commit message of the last commit on your branch:  
 审阅者可能经常建议对提交消息进行更改（例如，为更改添加更多上下文或遵守我们的提交消息准则）。要更新分支上最后一次提交的提交消息：
