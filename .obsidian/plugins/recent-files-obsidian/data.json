@@ -5,6 +5,10 @@
       "path": "✨看板/✨看板.md"
     },
     {
+      "basename": "编写Node-Red插件",
+      "path": "工作笔记/Lorawan项目/编写Node-Red插件/编写Node-Red插件.md"
+    },
+    {
       "basename": "龙芯系统+龙芯(misp64-3A4000)适配",
       "path": "工作笔记/①Mind+兼容/龙芯系统+龙芯(misp64-3A4000)适配/龙芯系统+龙芯(misp64-3A4000)适配.md"
     },
@@ -195,10 +199,6 @@
     {
       "basename": "项目合作",
       "path": "工作笔记/项目合作.md"
-    },
-    {
-      "basename": "评测理论永久VIP",
-      "path": "✨看板/评测理论永久VIP.md"
     }
   ],
   "omittedPaths": [],

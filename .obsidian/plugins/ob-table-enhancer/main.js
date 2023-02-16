@@ -85,6 +85,8 @@ function getCellInfo(cellEl, plugin, tableEl, editorView) {
   return { tableLine, i, j };
 }
 function getTableOfCell(cellEl) {
+  if (!cellEl)
+    return;
   let parent = cellEl.parentNode;
   while (parent) {
     if (parent instanceof HTMLTableElement)
@@ -189,17 +191,17 @@ var setLineWithoutScroll = (editor, n, text) => {
   };
 };
 function withoutScrollAndFocus(editorView, callback) {
+  const contentDom = editorView.contentDOM;
   const scrollDom = editorView.scrollDOM;
   const x = scrollDom.scrollLeft;
   const y = scrollDom.scrollTop;
-  const resetScroll = () => {
+  scrollDom.addEventListener("scroll", (e) => {
+    e.stopImmediatePropagation();
+    e.preventDefault();
     scrollDom.scrollTo(x, y);
-  };
-  scrollDom.addEventListener("scroll", resetScroll, true);
-  editorView.contentDOM.blur();
+  }, { once: true, capture: true });
   callback();
-  editorView.contentDOM.blur();
-  scrollDom.removeEventListener("scroll", resetScroll, true);
+  contentDom.blur();
 }
 
 // src/tableEditor.ts
@@ -317,7 +319,8 @@ var TableEditor = class {
       console.error("Cannot get editor");
       return;
     }
-    table.formatLine.splice(colIndex + 1, 0, "---");
+    const textAlignment = this.plugin.settings.defaultAlignmentWhenInsertNewCol == "left" ? ":--" : this.plugin.settings.defaultAlignmentWhenInsertNewCol == "center" ? ":-:" : this.plugin.settings.defaultAlignmentWhenInsertNewCol == "right" ? "--:" : this.plugin.settings.defaultAlignmentWhenInsertNewCol == "follow" ? table.formatLine[colIndex] : null;
+    table.formatLine.splice(colIndex + 1, 0, textAlignment);
     table.cells.forEach((row, idx) => {
       const newCell = col ? col[idx] : "   ";
       row.splice(colIndex + 1, 0, newCell);
@@ -373,7 +376,7 @@ var TableEditor = class {
       console.error("Cannot get editor");
       return;
     }
-    table.formatLine[colIndex] = aligned == "left" ? ":----" : aligned == "right" ? "----:" : ":---:";
+    table.formatLine[colIndex] = aligned == "left" ? ":--" : aligned == "right" ? "--:" : aligned == "center" ? ":-:" : null;
     withoutScrollAndFocus(editorView, () => {
       editorView.dispatch(setLineWithoutScroll(editor, table.fromLine + 1, TableEditor.rowCells2rowString(table.formatLine)));
     });
@@ -513,8 +516,8 @@ var TableEditor = class {
     const cursor = editor.getCursor();
     const cursorLine = editor.getLine(cursor.line);
     const bodyString = "|" + "  |".repeat(j);
-    const formatString = "|" + ":-:|".repeat(j);
-    let tableArr = [
+    const formatString = this.plugin.settings.defaultAlignmentForTableGenerator == "left" ? "|" + ":--|".repeat(j) : this.plugin.settings.defaultAlignmentForTableGenerator == "center" ? "|" + ":-:|".repeat(j) : this.plugin.settings.defaultAlignmentForTableGenerator == "right" ? "|" + "--:|".repeat(j) : null;
+    const tableArr = [
       cursorLine,
       "\n",
       bodyString,
@@ -1163,7 +1166,11 @@ var DEFAULT_SETTINGS = {
   enableButtonPanel: true,
   enableTableGenerator: true,
   enableFloatingToolbar: false,
-  adjustTableCellHeight: true
+  adjustTableCellHeight: true,
+  removeEditBlockButton: false,
+  defaultAlignmentForTableGenerator: "left",
+  defaultAlignmentWhenInsertNewCol: "follow",
+  enableColumnWidthAdjust: true
 };
 var TableEnhancer2SettingTab = class extends import_obsidian6.PluginSettingTab {
   constructor(app2, plugin) {
@@ -1173,25 +1180,33 @@ var TableEnhancer2SettingTab = class extends import_obsidian6.PluginSettingTab {
   display() {
     this.containerEl.empty();
     this.containerEl.createEl("h2", { text: "Table Enhancer Settings" });
-    new import_obsidian6.Setting(this.containerEl).setName("Enable Button Panel").addToggle((c) => c.setValue(this.plugin.settings.enableButtonPanel).onChange(async (val) => {
+    new import_obsidian6.Setting(this.containerEl).setName("Enable button panel").addToggle((c) => c.setValue(this.plugin.settings.enableButtonPanel).onChange(async (val) => {
       this.plugin.settings.enableButtonPanel = val;
       await this.plugin.saveSettings();
     }));
-    new import_obsidian6.Setting(this.containerEl).setName("Enable Table Generator").addToggle((c) => c.setValue(this.plugin.settings.enableTableGenerator).onChange(async (val) => {
+    new import_obsidian6.Setting(this.containerEl).setName("Enable table generator").addToggle((c) => c.setValue(this.plugin.settings.enableTableGenerator).onChange(async (val) => {
       this.plugin.settings.enableTableGenerator = val;
       await this.plugin.saveSettings();
     }));
-    new import_obsidian6.Setting(this.containerEl).setName("Enable Floating Panel").addToggle((c) => c.setValue(this.plugin.settings.enableFloatingToolbar).onChange(async (val) => {
+    new import_obsidian6.Setting(this.containerEl).setName("Enable floating panel").addToggle((c) => c.setValue(this.plugin.settings.enableFloatingToolbar).onChange(async (val) => {
       this.plugin.settings.enableFloatingToolbar = val;
       await this.plugin.saveSettings();
     }));
-    new import_obsidian6.Setting(this.containerEl).setName("Adjust Height of Table Cells").setDesc("The default height of an empty cell is very short. Activate this to increase the cell height and make it easier to click.").addToggle((c) => c.setValue(this.plugin.settings.adjustTableCellHeight).onChange(async (val) => {
+    new import_obsidian6.Setting(this.containerEl).setName("Adjust height of cells").setDesc("The default height of an empty cell is very short. Activate this to increase the cell height and make it easier to click.").addToggle((c) => c.setValue(this.plugin.settings.adjustTableCellHeight).onChange(async (val) => {
       var _a, _b;
-      if (val == true)
+      if (val)
         (_a = activeDocument == null ? void 0 : activeDocument.body) == null ? void 0 : _a.addClass("table-height-adjust");
       else
         (_b = activeDocument == null ? void 0 : activeDocument.body) == null ? void 0 : _b.removeClass("table-height-adjust");
       this.plugin.settings.adjustTableCellHeight = val;
+      await this.plugin.saveSettings();
+    }));
+    new import_obsidian6.Setting(this.containerEl).setName("Default alignment for new created table").setDesc("Choose if you want to align the text in a cell to the right, left or in the middle.").addDropdown((d) => d.addOption("left", "left").addOption("center", "center").addOption("right", "right").setValue(this.plugin.settings.defaultAlignmentForTableGenerator).onChange(async (val) => {
+      this.plugin.settings.defaultAlignmentForTableGenerator = val;
+      await this.plugin.saveSettings();
+    }));
+    new import_obsidian6.Setting(this.containerEl).setName("Default alignment for new inserted column").setDesc("Choose if you want to align the text in a cell to the right, left, in the middle, or follow other columns.").addDropdown((d) => d.addOption("left", "left").addOption("center", "center").addOption("right", "right").addOption("follow", "follow").setValue(this.plugin.settings.defaultAlignmentWhenInsertNewCol).onChange(async (val) => {
+      this.plugin.settings.defaultAlignmentWhenInsertNewCol = val;
       await this.plugin.saveSettings();
     }));
   }
@@ -1232,6 +1247,30 @@ function getTableHoverPostProcessor(plugin) {
 
 // src/mousedownHandler.ts
 var import_obsidian7 = require("obsidian");
+function isClickable(node) {
+  if (node instanceof HTMLElement) {
+    if (node.tagName == "A")
+      return true;
+  }
+  return false;
+}
+function getEditableNode(node) {
+  if (!(node instanceof HTMLElement))
+    return null;
+  if (node instanceof HTMLTableCellElement)
+    return node;
+  if (isClickable(node))
+    return null;
+  let parent = node.parentNode;
+  while (parent) {
+    if (parent instanceof HTMLTableCellElement)
+      break;
+    parent = parent.parentNode;
+  }
+  if (!parent)
+    return null;
+  return parent;
+}
 function getClickHandler(plugin) {
   return async (e) => {
     if (plugin.isInReadingView())
@@ -1239,11 +1278,9 @@ function getClickHandler(plugin) {
     const markdownView = plugin.app.workspace.getActiveViewOfType(import_obsidian7.MarkdownView);
     const editor = markdownView == null ? void 0 : markdownView.editor;
     const editorView = editor == null ? void 0 : editor.cm;
-    const cellEl = e.targetNode;
-    if (!(cellEl instanceof HTMLTableCellElement))
+    const cellEl = getEditableNode(e.targetNode);
+    if (!cellEl)
       return;
-    e.stopImmediatePropagation();
-    e.preventDefault();
     let tableEl = cellEl.parentNode;
     while (tableEl) {
       if (tableEl instanceof HTMLTableElement)
@@ -1254,8 +1291,12 @@ function getClickHandler(plugin) {
       console.error("Cannot get table element of cell ", cellEl);
       return;
     }
-    if (tableEl.hasClass("dataview"))
+    if (!(editorView == null ? void 0 : editorView.contentDOM.contains(tableEl)))
       return;
+    if (tableEl.classList.length > 0)
+      return;
+    e.stopImmediatePropagation();
+    e.preventDefault();
     const { tableLine, i, j } = getCellInfo(cellEl, plugin, tableEl);
     if (cellEl.isContentEditable) {
       return;
@@ -1279,8 +1320,8 @@ function getMousedownHandler(plugin) {
   return async (e) => {
     const markdownView = plugin.app.workspace.getActiveViewOfType(import_obsidian7.MarkdownView);
     const editor = markdownView == null ? void 0 : markdownView.editor;
-    const cellEl = e.targetNode;
-    if (!(cellEl instanceof HTMLTableCellElement)) {
+    const tableEl = getTableOfCell(e.targetNode);
+    if (!tableEl) {
       const editingCell = activeDocument.querySelector("." + editingCellClassName);
       if (editingCell instanceof HTMLTableCellElement) {
         await plugin.doneEdit(editingCell);
@@ -1647,6 +1688,9 @@ var TableEnhancer2 = class extends import_obsidian9.Plugin {
     const tableHoverPostProcessor = getTableHoverPostProcessor(this);
     this.registerMarkdownPostProcessor(tableHoverPostProcessor);
     this.app.workspace.onLayoutReady(() => {
+      const markdownView = app.workspace.getActiveViewOfType(import_obsidian9.MarkdownView);
+      const editor = markdownView == null ? void 0 : markdownView.editor;
+      const editorView = editor == null ? void 0 : editor.cm;
       if (this.settings.adjustTableCellHeight)
         activeDocument.body.addClass("table-height-adjust");
       const mousedownHandler = getMousedownHandler(this);

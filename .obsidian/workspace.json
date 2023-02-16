@@ -84,7 +84,7 @@
       {
         "id": "50eaf962fc4b7630",
         "type": "tabs",
-        "dimension": 21.372549019607842,
+        "dimension": 38.96551724137932,
         "children": [
           {
             "id": "659708b02f08e044",
@@ -110,7 +110,7 @@
                 "showSearch": false,
                 "searchQuery": "",
                 "backlinkCollapsed": false,
-                "unlinkedCollapsed": true
+                "unlinkedCollapsed": false
               }
             }
           },
@@ -133,15 +133,7 @@
               "type": "reminder-list",
               "state": {}
             }
-          }
-        ],
-        "currentTab": 3
-      },
-      {
-        "id": "8b35e3d291b3b526",
-        "type": "tabs",
-        "dimension": 34.31372549019608,
-        "children": [
+          },
           {
             "id": "de43a196f7ed774c",
             "type": "leaf",
@@ -150,12 +142,13 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 4
       },
       {
         "id": "ae9e147ae897ad94",
         "type": "tabs",
-        "dimension": 44.31372549019608,
+        "dimension": 61.03448275862068,
         "children": [
           {
             "id": "2943167445a2b71e",
@@ -200,8 +193,10 @@
       "workspaces:管理工作区布局": false
     }
   },
-  "active": "5ce6bd3138c54180",
+  "active": "de43a196f7ed774c",
   "lastOpenFiles": [
+    "工作笔记/Lorawan项目/编写Node-Red插件/编写Node-Red插件.md",
+    "✨看板/✨看板.md",
     "工作笔记/Scrach-Link/Scrach-Link.md",
     "工作笔记/Scrach-Link/image-20230214102057571.png",
     "工作笔记/Scrach-Link/image-20230214102225569.png",
@@ -209,8 +204,6 @@
     "杂七杂八/问题/文件乱码.md",
     "模板/阅读模板.md",
     "模板/日记模板.md",
-    "模板/影视模板.md",
-    "模板/兼容笔记模板.md",
-    "模板/个人项目模板.md"
+    "模板/影视模板.md"
   ]
 }
