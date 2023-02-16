@@ -1,6 +1,14 @@
 {
   "recentFiles": [
     {
+      "basename": "✨看板",
+      "path": "✨看板/✨看板.md"
+    },
+    {
+      "basename": "龙芯系统+龙芯(misp64-3A4000)适配",
+      "path": "工作笔记/①Mind+兼容/龙芯系统+龙芯(misp64-3A4000)适配/龙芯系统+龙芯(misp64-3A4000)适配.md"
+    },
+    {
       "basename": "Scrach-Link",
       "path": "工作笔记/Scrach-Link/Scrach-Link.md"
     },
@@ -43,10 +51,6 @@
     {
       "basename": "Webpack学习",
       "path": "个人学习/Webpack学习/Webpack学习.md"
-    },
-    {
-      "basename": "✨看板",
-      "path": "✨看板/✨看板.md"
     },
     {
       "basename": "导出",
@@ -119,10 +123,6 @@
     {
       "basename": "盒子与定位",
       "path": "个人学习/CSS/盒子与定位.md"
-    },
-    {
-      "basename": "龙芯系统+龙芯(misp64-3A4000)适配",
-      "path": "工作笔记/①Mind+兼容/龙芯系统+龙芯(misp64-3A4000)适配/龙芯系统+龙芯(misp64-3A4000)适配.md"
     },
     {
       "basename": "ZeroTier用法",

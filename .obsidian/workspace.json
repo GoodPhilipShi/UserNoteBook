@@ -4,19 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "3561601efa8f31e0",
+        "id": "d69c1f803e08d481",
         "type": "tabs",
         "children": [
           {
-            "id": "e496e8efbddf5838",
+            "id": "4d62a2bee8a997fe",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "kanban",
               "state": {
-                "file": "工作笔记/Scrach-Link/Scrach-Link.md",
-                "mode": "preview",
-                "backlinks": false,
-                "source": false
+                "file": "✨看板/✨看板.md"
               }
             }
           }
@@ -106,7 +103,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "工作笔记/Scrach-Link/Scrach-Link.md",
+                "file": "✨看板/✨看板.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -123,7 +120,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "工作笔记/Scrach-Link/Scrach-Link.md",
+                "file": "✨看板/✨看板.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -166,7 +163,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "工作笔记/Scrach-Link/Scrach-Link.md"
+                "file": "✨看板/✨看板.md"
               }
             }
           },
@@ -178,7 +175,8 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -202,11 +200,11 @@
       "workspaces:管理工作区布局": false
     }
   },
-  "active": "e496e8efbddf5838",
+  "active": "5ce6bd3138c54180",
   "lastOpenFiles": [
+    "工作笔记/Scrach-Link/Scrach-Link.md",
     "工作笔记/Scrach-Link/image-20230214102057571.png",
     "工作笔记/Scrach-Link/image-20230214102225569.png",
-    "工作笔记/Scrach-Link/Scrach-Link.md",
     "工作笔记/Scrach-Link/Pasted image 20230214101125.png",
     "杂七杂八/问题/文件乱码.md",
     "模板/阅读模板.md",
