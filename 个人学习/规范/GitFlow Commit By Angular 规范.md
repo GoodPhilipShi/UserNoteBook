@@ -1,29 +1,12 @@
 ---
-title: Contributing to Angular 为 Angular 做贡献
+title: GitFlow Commit By Angular 规范
 date created: 星期四, 二月 16日 2023, 2:50:01 下午
-date modified: 星期四, 二月 16日 2023, 3:51:00 下午
+date modified: 星期五, 二月 17日 2023, 8:59:55 早上
 ---
 
-> [!info] angular 规范
+# GitFlow Commit By Angular 规范
 
-# Contributing to Angular 为 Angular 做贡献
 
-We would love for you to contribute to Angular and help make it even better than it is today! As a contributor, here are the guidelines we would like you to follow:  
-我们希望您能为 Angular 做出贡献，并帮助它比今天更好！作为贡献者，以下是我们希望您遵循的准则：
-
--   [Code of Conduct 行为准则](https://github.com/angular/angular/blob/main/CONTRIBUTING.md#coc)
--   [Question or Problem?  有疑问还是问题？](https://github.com/angular/angular/blob/main/CONTRIBUTING.md#question)
--   [Issues and Bugs  问题和错误](https://github.com/angular/angular/blob/main/CONTRIBUTING.md#issue)
--   [Feature Requests  功能请求](https://github.com/angular/angular/blob/main/CONTRIBUTING.md#feature)
--   [Submission Guidelines  提交指南](https://github.com/angular/angular/blob/main/CONTRIBUTING.md#submit)
--   [Coding Rules  编码规则](https://github.com/angular/angular/blob/main/CONTRIBUTING.md#rules)
--   [Commit Message Guidelines  提交消息准则](https://github.com/angular/angular/blob/main/CONTRIBUTING.md#commit)
--   [Signing the CLA  签署 CLA](https://github.com/angular/angular/blob/main/CONTRIBUTING.md#cla)
-
-## Code of Conduct 行为准则
-
-Help us keep Angular open and inclusive. Please read and follow our [Code of Conduct](https://github.com/angular/code-of-conduct/blob/main/CODE_OF_CONDUCT.md).  
-帮助我们保持 Angular 的开放性和包容性。请阅读并遵守我们的行为准则。
 
 ## Got a Question or Problem? 有疑问或问题？
 
@@ -188,7 +171,7 @@ A reviewer might often suggest changes to a commit message (for example, to add 
 > If you need to update the commit message of an earlier commit, you can use in interactive mode. See the [git docs](https://git-scm.com/docs/git-rebase#_interactive_mode) for more details.  
 > 如果需要更新早期提交的提交消息，可以在交互模式下使用。有关更多详细信息，请参阅 git 文档。`git rebase`
 
-#### [](https://github.com/angular/angular/blob/main/CONTRIBUTING.md#after-your-pull-request-is-merged)After Your Pull Request is Merged
+#### After Your Pull Request is Merged
 
 合并拉取请求后
 
@@ -214,7 +197,7 @@ After your pull request is merged, you can safely delete your branch and pull th
     git pull --ff upstream main
     
 
-## [](https://github.com/angular/angular/blob/main/CONTRIBUTING.md#-coding-rules)Coding Rules 编码规则
+## Coding Rules 编码规则
 
 To ensure consistency throughout the source code, keep these rules in mind as you are working:  
 为了确保整个源代码的一致性，请在工作时牢记以下规则：
@@ -232,7 +215,7 @@ To ensure consistency throughout the source code, keep these rules in mind as yo
     可以使用自动格式化程序，请参阅 DEVELOPER.md 。
     
 
-## [](https://github.com/angular/angular/blob/main/CONTRIBUTING.md#-commit-message-format)Commit Message Format 提交消息格式
+## Commit Message Format 提交消息格式
 
 _This specification is inspired by and supersedes the [AngularJS commit message format](https://docs.google.com/document/d/1QrDFcIiPjSLDn3EL15IJygNPiHORgU1_OOAqWjiDU5Y/edit#).  
 此规范受到 AngularJS 提交消息格式的启发并取代了该格式。_
@@ -260,7 +243,7 @@ The is mandatory for all commits except for those of type "docs". When the body 
 The is optional. The [Commit Message Footer](https://github.com/angular/angular/blob/main/CONTRIBUTING.md#commit-footer) format describes what the footer is used for and the structure it must have.`footer`  
 是可选的。提交消息页脚格式描述了页脚的用途及其必须具有的结构。 `footer`
 
-### [](https://github.com/angular/angular/blob/main/CONTRIBUTING.md#commit-message-header)Commit Message Header 提交消息头
+### Commit Message Header 提交消息头
 
 ```
 <type>(<scope>): <short summary>
@@ -279,26 +262,23 @@ The is optional. The [Commit Message Footer](https://github.com/angular/angular
 The and fields are mandatory, the field is optional.`<type>``<summary>``(<scope>)`  
 和字段是必填字段，字段是可选的。 `<type>` `<summary>` `(<scope>)`
 
-#### [](https://github.com/angular/angular/blob/main/CONTRIBUTING.md#type)Type
+#### Type
 
 Must be one of the following:  
 必须是以下之一：
 
--   **build**: Changes that affect the build system or external dependencies (example scopes: gulp, broccoli, npm)  
-    生成：影响生成系统或外部依赖项的更改（示例范围：gulp、西兰花、npm）
--   **ci**: Changes to our CI configuration files and scripts (examples: CircleCi, SauceLabs)  
-    ci：对 CI 配置文件和脚本的更改（例如：CircleCi、SauceLabs）
--   **docs**: Documentation only changes 文档：仅文档更改
--   **feat**: A new feature 壮举：新功能
--   **fix**: A bug fix 修复：错误修复
--   **perf**: A code change that improves performance  
-    perf：提高性能的代码更改
--   **refactor**: A code change that neither fixes a bug nor adds a feature  
-    重构：既不修复错误也不添加功能的代码更改
--   **test**: Adding missing tests or correcting existing tests  
-    test：添加缺失的测试或更正现有测试
+|Type|含义 |meaning|
+| --------- | ---- | ------- |
+|build|影响生成系统或外部依赖项的更改（示例范围：gulp, broccoli, npm）|Changes that affect the build system or external dependencies (example scopes: gulp, broccoli, npm)|
+|ci|对 CI 配置文件和脚本的更改（例如：CircleCi、SauceLabs）|Changes to our CI configuration files and scripts (examples: CircleCi, SauceLabs)|
+|docs|仅文档更改|Documentation only changes|
+|feat|新功能|A new feature|
+|fix|错误修复|A bug fix|
+|perf|提高性能的代码更改|A code change that improves performance|
+|refactor|既不修复错误也不添加功能的代码更改|A code change that neither fixes a bug nor adds a feature|
+|test|添加缺失的测试或更正现有测试|Adding missing tests or correcting existing tests|
 
-#### [](https://github.com/angular/angular/blob/main/CONTRIBUTING.md#scope)Scope
+#### Scope
 
 The scope should be the name of the npm package affected (as perceived by the person reading the changelog generated from commit messages).  
 范围应该是受影响的 npm 包的名称（由读取从提交消息生成的更改日志的人员所感知）。
@@ -357,7 +337,7 @@ There are currently a few exceptions to the "use package name" rule:
     none/空字符串：对所有包（例如）和与特定包无关的文档更改（例如）有用。 `test` `refactor` `test: add missing unit tests` `docs: fix typo in tutorial`
     
 
-#### [](https://github.com/angular/angular/blob/main/CONTRIBUTING.md#summary)Summary
+#### Summary
 
 Use the summary field to provide a succinct description of the change:  
 使用摘要字段提供更改的简洁描述：
@@ -369,7 +349,7 @@ Use the summary field to provide a succinct description of the change:
 -   no dot (.) at the end  
     末尾没有点 （.）
 
-### [](https://github.com/angular/angular/blob/main/CONTRIBUTING.md#commit-message-body)Commit Message Body 提交消息正文
+### Commit Message Body 提交消息正文
 
 Just as in the summary, use the imperative, present tense: "fix" not "fixed" nor "fixes".  
 就像在摘要中一样，使用祈使式，现在时：“修复”不是“固定”也不是“修复”。
@@ -377,7 +357,7 @@ Just as in the summary, use the imperative, present tense: "fix" not "fixed" nor
 Explain the motivation for the change in the commit message body. This commit message should explain _why_ you are making the change. You can include a comparison of the previous behavior with the new behavior in order to illustrate the impact of the change.  
 在提交消息正文中解释更改的动机。此提交消息应说明进行更改的原因。您可以包括以前行为与新行为的比较，以说明更改的影响。
 
-### [](https://github.com/angular/angular/blob/main/CONTRIBUTING.md#commit-message-footer)Commit Message Footer 提交消息页脚
+### Commit Message Footer 提交消息页脚
 
 The footer can contain information about breaking changes and deprecations and is also the place to reference GitHub issues, Jira tickets, and other PRs that this commit closes or is related to. For example:  
 页脚可以包含有关中断性更改和弃用的信息，也可以引用 GitHub 问题、Jira 票证以及此提交关闭或与之相关的其他 PR。例如：
@@ -408,7 +388,7 @@ Breaking Change section should start with the phrase "BREAKING CHANGE: " followe
 Similarly, a Deprecation section should start with "DEPRECATED: " followed by a short description of what is deprecated, a blank line, and a detailed description of the deprecation that also mentions the recommended update path.  
 同样，弃用部分应以“已弃用：”开头，后跟已弃用内容的简短说明、空行以及弃用的详细说明，其中还提到了建议的更新路径。
 
-## [](https://github.com/angular/angular/blob/main/CONTRIBUTING.md#revert-commits)Revert Commits 还原提交
+## Revert Commits 还原提交
 
 If the commit reverts a previous commit, it should begin with , followed by the header of the reverted commit.`revert:`  
 如果提交还原了以前的提交，则应以 开头，后跟还原提交的标头。 `revert:`

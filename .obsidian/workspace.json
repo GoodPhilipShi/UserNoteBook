@@ -16,22 +16,8 @@
                 "file": "✨看板/✨看板.md"
               }
             }
-          },
-          {
-            "id": "9c9e44d535213c84",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "个人学习/规范/GitFlow Commit规定.md",
-                "mode": "source",
-                "backlinks": false,
-                "source": false
-              }
-            }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -117,7 +103,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "个人学习/规范/GitFlow Commit规定.md",
+                "file": "✨看板/✨看板.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -134,7 +120,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "个人学习/规范/GitFlow Commit规定.md",
+                "file": "✨看板/✨看板.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -170,7 +156,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "个人学习/规范/GitFlow Commit规定.md"
+                "file": "✨看板/✨看板.md"
               }
             }
           },
@@ -207,8 +193,9 @@
       "workspaces:管理工作区布局": false
     }
   },
-  "active": "9c9e44d535213c84",
+  "active": "4d62a2bee8a997fe",
   "lastOpenFiles": [
+    "个人学习/规范/GitFlow Commit By Angular 规范.md",
     "✨看板/✨看板.md",
     "工作笔记/Lorawan项目/编写Node-Red插件/编写Node-Red插件.md",
     "工作笔记/Scrach-Link/Scrach-Link.md",
@@ -217,7 +204,6 @@
     "工作笔记/Scrach-Link/Pasted image 20230214101125.png",
     "杂七杂八/问题/文件乱码.md",
     "模板/阅读模板.md",
-    "模板/日记模板.md",
-    "模板/影视模板.md"
+    "模板/日记模板.md"
   ]
 }
