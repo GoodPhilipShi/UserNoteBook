@@ -1,12 +1,16 @@
 {
   "recentFiles": [
     {
-      "basename": "✨看板",
-      "path": "✨看板/✨看板.md"
+      "basename": "安卓运用",
+      "path": "杂七杂八/安卓运用.md"
     },
     {
       "basename": "GitFlow Commit By Angular 规范",
       "path": "个人学习/规范/GitFlow Commit By Angular 规范.md"
+    },
+    {
+      "basename": "✨看板",
+      "path": "✨看板/✨看板.md"
     },
     {
       "basename": "编写Node-Red插件",
@@ -187,18 +191,6 @@
     {
       "basename": "统信适配认证流程",
       "path": "工作笔记/①Mind+兼容/统信适配认证流程/统信适配认证流程.md"
-    },
-    {
-      "basename": "数据库错误收集",
-      "path": "杂七杂八/归档/MySQL 学习/数据库错误收集.md"
-    },
-    {
-      "basename": "行空板内部逻辑",
-      "path": "工作笔记/行空板内部逻辑/行空板内部逻辑.md"
-    },
-    {
-      "basename": "React-Router-dom V6",
-      "path": "个人学习/React-Router-dom V6/React-Router-dom V6.md"
     }
   ],
   "omittedPaths": [],

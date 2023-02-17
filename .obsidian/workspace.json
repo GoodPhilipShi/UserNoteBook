@@ -11,10 +11,8 @@
             "id": "4d62a2bee8a997fe",
             "type": "leaf",
             "state": {
-              "type": "kanban",
-              "state": {
-                "file": "✨看板/✨看板.md"
-              }
+              "type": "empty",
+              "state": {}
             }
           }
         ]
@@ -103,7 +101,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "✨看板/✨看板.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -120,7 +117,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "✨看板/✨看板.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -155,9 +151,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "✨看板/✨看板.md"
-              }
+              "state": {}
             }
           },
           {
@@ -190,20 +184,21 @@
       "obsidian42-brat:BRAT": false,
       "homepage:Open homepage": false,
       "obsidian-memos:Memos": false,
-      "workspaces:管理工作区布局": false
+      "workspaces:管理工作区布局": false,
+      "meld-encrypt:Create new encrypted note": false
     }
   },
   "active": "4d62a2bee8a997fe",
   "lastOpenFiles": [
+    "快乐.encrypted",
+    "杂七杂八/安卓运用.md",
     "个人学习/规范/GitFlow Commit By Angular 规范.md",
+    "个人学习/测试.md",
+    "BRAT-log.md",
     "✨看板/✨看板.md",
     "工作笔记/Lorawan项目/编写Node-Red插件/编写Node-Red插件.md",
     "工作笔记/Scrach-Link/Scrach-Link.md",
     "工作笔记/Scrach-Link/image-20230214102057571.png",
-    "工作笔记/Scrach-Link/image-20230214102225569.png",
-    "工作笔记/Scrach-Link/Pasted image 20230214101125.png",
-    "杂七杂八/问题/文件乱码.md",
-    "模板/阅读模板.md",
-    "模板/日记模板.md"
+    "工作笔记/Scrach-Link/image-20230214102225569.png"
   ]
 }
