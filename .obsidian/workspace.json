@@ -11,8 +11,10 @@
             "id": "4d62a2bee8a997fe",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {}
+              "type": "kanban",
+              "state": {
+                "file": "✨看板/✨看板.md"
+              }
             }
           }
         ]
@@ -101,13 +103,14 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "✨看板/✨看板.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
                 "showSearch": false,
                 "searchQuery": "",
                 "backlinkCollapsed": false,
-                "unlinkedCollapsed": false
+                "unlinkedCollapsed": true
               }
             }
           },
@@ -117,6 +120,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "✨看板/✨看板.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -144,14 +148,16 @@
       {
         "id": "ae9e147ae897ad94",
         "type": "tabs",
-        "dimension": 61.03448275862068,
+        "dimension": 61.034482758620676,
         "children": [
           {
             "id": "2943167445a2b71e",
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "✨看板/✨看板.md"
+              }
             }
           },
           {
@@ -171,6 +177,7 @@
   },
   "left-ribbon": {
     "hiddenItems": {
+      "meld-encrypt:Create new encrypted note": false,
       "obsidian-excalidraw-plugin:新建 Excalidraw 绘图": false,
       "switcher:打开快速切换": false,
       "graph:查看关系图谱": false,
@@ -184,21 +191,20 @@
       "obsidian42-brat:BRAT": false,
       "homepage:Open homepage": false,
       "obsidian-memos:Memos": false,
-      "workspaces:管理工作区布局": false,
-      "meld-encrypt:Create new encrypted note": false
+      "workspaces:管理工作区布局": false
     }
   },
-  "active": "4d62a2bee8a997fe",
+  "active": "de43a196f7ed774c",
   "lastOpenFiles": [
+    "Untitled 20230217 051451.encrypted",
+    "Untitled 20230217 051402.encrypted",
+    "✨看板/✨看板.md",
     "快乐.encrypted",
     "杂七杂八/安卓运用.md",
     "个人学习/规范/GitFlow Commit By Angular 规范.md",
     "个人学习/测试.md",
     "BRAT-log.md",
-    "✨看板/✨看板.md",
     "工作笔记/Lorawan项目/编写Node-Red插件/编写Node-Red插件.md",
-    "工作笔记/Scrach-Link/Scrach-Link.md",
-    "工作笔记/Scrach-Link/image-20230214102057571.png",
-    "工作笔记/Scrach-Link/image-20230214102225569.png"
+    "工作笔记/Scrach-Link/Scrach-Link.md"
   ]
 }
