@@ -5,6 +5,14 @@
       "path": "工作笔记/①Mind+兼容/Mac系统适配/173RC2.0/173RC2.0.md"
     },
     {
+      "basename": "linux兼容讲解",
+      "path": "工作笔记/①Mind+兼容/最简易的Linux适配流程/linux兼容讲解.md"
+    },
+    {
+      "basename": "Linux适配必看",
+      "path": "工作笔记/①Mind+兼容/Linux适配必看.png"
+    },
+    {
       "basename": "172RC3.0",
       "path": "工作笔记/①Mind+兼容/Mac系统适配/172RC3.0/172RC3.0.md"
     },
@@ -191,10 +199,6 @@
     {
       "basename": "用户数据库",
       "path": "工作笔记/用户数据库/用户数据库.md"
-    },
-    {
-      "basename": "统信适配认证流程",
-      "path": "工作笔记/①Mind+兼容/统信适配认证流程/统信适配认证流程.md"
     }
   ],
   "omittedPaths": [],
