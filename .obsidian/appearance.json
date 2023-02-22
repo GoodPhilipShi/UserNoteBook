@@ -3,8 +3,6 @@
   "cssTheme": "Minimal",
   "theme": "moonstone",
   "enabledCssSnippets": [
-    "优化标题",
-    "淡化视图切换控件",
     "custom-admonitions.dac0b7",
     "extended-colorschemes",
     "yaozhuwa@CSS",
