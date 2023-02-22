@@ -13,7 +13,6 @@
   "easy-typing-obsidian",
   "obsidian-reminder-plugin",
   "obsidian-memos",
-  "dataview",
   "obsidian-proxy-github",
   "folder-note-core",
   "homepage",
@@ -24,5 +23,6 @@
   "obsidian-regex-pipeline",
   "ob-table-enhancer",
   "nn-delete-image-in-use",
-  "ProxyGithub"
+  "ProxyGithub",
+  "dataview"
 ]

@@ -5,8 +5,10 @@
   "enabledCssSnippets": [
     "custom-admonitions.dac0b7",
     "extended-colorschemes",
+    "优化MEMO样式",
     "yaozhuwa@CSS",
-    "优化MEMO样式"
+    "minimal-plus",
+    "彩色文件列表"
   ],
   "translucency": false,
   "accentColor": "#3381ff",

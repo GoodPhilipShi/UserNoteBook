@@ -60,5 +60,12 @@
   "floating-toc-styles@@enable-bar-icon": false,
   "yaozhuwa@css@@table-line-number": false,
   "yaozhuwa@css@@full-width-table": true,
-  "minimal-advanced@@cursor": "default"
+  "minimal-advanced@@cursor": "default",
+  "minimal-style@@file-header-visibility": "minimal-tab-title-hover",
+  "minimal-style@@file-header-font-size": "1em",
+  "minimal-style@@file-header-font-weight": 600,
+  "minimal-style@@file-header-justify": "center",
+  "minimal-style@@inline-title-size": "1.5em",
+  "minimal-style@@window-title-off": true,
+  "minimal-style@@row-hover": true
 }

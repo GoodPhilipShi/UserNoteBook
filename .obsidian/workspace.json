@@ -11,9 +11,12 @@
             "id": "4d62a2bee8a997fe",
             "type": "leaf",
             "state": {
-              "type": "kanban",
+              "type": "markdown",
               "state": {
-                "file": "✨看板/✨看板.md"
+                "file": "工作笔记/①Mind+兼容/Mac系统适配/173RC2.0/173RC2.0.md",
+                "mode": "preview",
+                "backlinks": false,
+                "source": false
               }
             }
           }
@@ -103,7 +106,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "✨看板/✨看板.md",
+                "file": "工作笔记/①Mind+兼容/Mac系统适配/173RC2.0/173RC2.0.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -120,7 +123,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "✨看板/✨看板.md",
+                "file": "工作笔记/①Mind+兼容/Mac系统适配/173RC2.0/173RC2.0.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -156,7 +159,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "✨看板/✨看板.md"
+                "file": "工作笔记/①Mind+兼容/Mac系统适配/173RC2.0/173RC2.0.md"
               }
             }
           },
@@ -192,17 +195,17 @@
       "workspaces:管理工作区布局": false
     }
   },
-  "active": "de43a196f7ed774c",
+  "active": "4d62a2bee8a997fe",
   "lastOpenFiles": [
-    "✨看板/✨看板.md",
+    "个人学习/Obsidian/用法/Callouts 用法.md",
     "工作笔记/①Mind+兼容/Mac系统适配/173RC2.0/173RC2.0.md",
+    "✨看板/✨看板.md",
     "工作笔记/①Mind+兼容/最简易的Linux适配流程/linux兼容讲解.md",
     "工作笔记/①Mind+兼容/Linux适配必看.png",
     "工作笔记/①Mind+兼容/Mac系统适配/172RC3.0/172RC3.0.md",
     "工作笔记/①Mind+兼容/Mac系统适配/Mac系统适配.md",
     "Untitled 20230217 051451.encrypted",
     "Untitled 20230217 051402.encrypted",
-    "快乐.encrypted",
-    "杂七杂八/安卓运用.md"
+    "快乐.encrypted"
   ]
 }
