@@ -67,5 +67,9 @@
   "minimal-style@@file-header-justify": "center",
   "minimal-style@@inline-title-size": "1.5em",
   "minimal-style@@window-title-off": true,
-  "minimal-style@@row-hover": true
+  "minimal-style@@row-hover": true,
+  "folderColors@@nav-files-container-margin-top": 0,
+  "folderColors@@nav-files-container-margin-left": 0,
+  "folderColors@@nav-files-container-margin-right": 0,
+  "folderColors@@nav-files-container-margin-botton": 0
 }
