@@ -59,5 +59,6 @@
   "floating-toc-styles@@enable-heading-nowrap": false,
   "floating-toc-styles@@enable-bar-icon": false,
   "yaozhuwa@css@@table-line-number": false,
-  "yaozhuwa@css@@full-width-table": true
+  "yaozhuwa@css@@full-width-table": true,
+  "minimal-advanced@@cursor": "default"
 }

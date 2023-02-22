@@ -177,8 +177,6 @@
   },
   "left-ribbon": {
     "hiddenItems": {
-      "meld-encrypt:Create new encrypted note": false,
-      "obsidian-excalidraw-plugin:新建 Excalidraw 绘图": false,
       "switcher:打开快速切换": false,
       "graph:查看关系图谱": false,
       "daily-notes:打开/创建今天的日记": false,
@@ -194,14 +192,14 @@
       "workspaces:管理工作区布局": false
     }
   },
-  "active": "4d62a2bee8a997fe",
+  "active": "de43a196f7ed774c",
   "lastOpenFiles": [
+    "✨看板/✨看板.md",
     "工作笔记/①Mind+兼容/Mac系统适配/173RC2.0/173RC2.0.md",
     "工作笔记/①Mind+兼容/最简易的Linux适配流程/linux兼容讲解.md",
     "工作笔记/①Mind+兼容/Linux适配必看.png",
     "工作笔记/①Mind+兼容/Mac系统适配/172RC3.0/172RC3.0.md",
     "工作笔记/①Mind+兼容/Mac系统适配/Mac系统适配.md",
-    "✨看板/✨看板.md",
     "Untitled 20230217 051451.encrypted",
     "Untitled 20230217 051402.encrypted",
     "快乐.encrypted",

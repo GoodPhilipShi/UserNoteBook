@@ -1,13 +1,14 @@
 {
   "baseFontSize": 17,
-  "cssTheme": "AnuPpuccin",
+  "cssTheme": "Minimal",
   "theme": "moonstone",
   "enabledCssSnippets": [
-    "yaozhuwa@CSS",
     "优化标题",
     "淡化视图切换控件",
     "custom-admonitions.dac0b7",
-    "extended-colorschemes"
+    "extended-colorschemes",
+    "yaozhuwa@CSS",
+    "优化MEMO样式"
   ],
   "translucency": false,
   "accentColor": "#3381ff",

@@ -3,8 +3,6 @@
   "alx-folder-note",
   "obsidian-auto-link-title",
   "obsidian-kanban",
-  "oz-image-plugin",
-  "obsidian-pandoc",
   "obsidian-style-settings",
   "mysnippets-plugin",
   "editing-toolbar",
@@ -19,15 +17,12 @@
   "obsidian-proxy-github",
   "folder-note-core",
   "homepage",
-  "obsidian-banners",
   "calendar",
   "table-editor-obsidian",
   "obsidian-icon-folder",
-  "obsidian-excalidraw-plugin",
   "obsidian-enhancing-mindmap",
   "obsidian-regex-pipeline",
   "ob-table-enhancer",
-  "obsidian-local-images-plus",
   "nn-delete-image-in-use",
-  "meld-encrypt"
+  "ProxyGithub"
 ]
