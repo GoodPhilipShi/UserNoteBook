@@ -24,5 +24,6 @@
   "ob-table-enhancer",
   "nn-delete-image-in-use",
   "ProxyGithub",
-  "dataview"
+  "dataview",
+  "obsidian-linter"
 ]

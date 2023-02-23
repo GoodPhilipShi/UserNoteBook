@@ -1,8 +1,32 @@
 {
   "recentFiles": [
     {
+      "basename": "Python打包",
+      "path": "工作笔记/①Mind+兼容/相关资料/Python打包.md"
+    },
+    {
+      "basename": "统信系统+amd64适配",
+      "path": "工作笔记/①Mind+兼容/统信系统+amd64适配/统信系统+amd64适配.md"
+    },
+    {
+      "basename": "统信系统+龙芯(loong64-3A5000)适配",
+      "path": "工作笔记/①Mind+兼容/统信系统+龙芯(loong64-3A5000)适配/统信系统+龙芯(loong64-3A5000)适配.md"
+    },
+    {
+      "basename": "统信适配认证流程",
+      "path": "工作笔记/①Mind+兼容/统信适配认证流程/统信适配认证流程.md"
+    },
+    {
+      "basename": "龙芯系统+龙芯(misp64-3A4000)适配",
+      "path": "工作笔记/①Mind+兼容/龙芯系统+龙芯(misp64-3A4000)适配/龙芯系统+龙芯(misp64-3A4000)适配.md"
+    },
+    {
       "basename": "173RC2.0",
       "path": "工作笔记/①Mind+兼容/Mac系统适配/173RC2.0/173RC2.0.md"
+    },
+    {
+      "basename": "172RC3.0",
+      "path": "工作笔记/①Mind+兼容/Mac系统适配/172RC3.0/172RC3.0.md"
     },
     {
       "basename": "✨看板",
@@ -21,10 +45,6 @@
       "path": "工作笔记/①Mind+兼容/Linux适配必看.png"
     },
     {
-      "basename": "172RC3.0",
-      "path": "工作笔记/①Mind+兼容/Mac系统适配/172RC3.0/172RC3.0.md"
-    },
-    {
       "basename": "安卓运用",
       "path": "杂七杂八/安卓运用.md"
     },
@@ -35,10 +55,6 @@
     {
       "basename": "编写Node-Red插件",
       "path": "工作笔记/Lorawan项目/编写Node-Red插件/编写Node-Red插件.md"
-    },
-    {
-      "basename": "龙芯系统+龙芯(misp64-3A4000)适配",
-      "path": "工作笔记/①Mind+兼容/龙芯系统+龙芯(misp64-3A4000)适配/龙芯系统+龙芯(misp64-3A4000)适配.md"
     },
     {
       "basename": "Scrach-Link",
@@ -169,14 +185,6 @@
       "path": "日记/23年01月19日.md"
     },
     {
-      "basename": "统信系统+龙芯(loong64-3A5000)适配",
-      "path": "工作笔记/①Mind+兼容/统信系统+龙芯(loong64-3A5000)适配/统信系统+龙芯(loong64-3A5000)适配.md"
-    },
-    {
-      "basename": "统信系统+amd64适配",
-      "path": "工作笔记/①Mind+兼容/统信系统+amd64适配/统信系统+amd64适配.md"
-    },
-    {
       "basename": "统信系统+arm64适配",
       "path": "工作笔记/①Mind+兼容/统信系统+arm64适配/统信系统+arm64适配.md"
     },
@@ -191,14 +199,6 @@
     {
       "basename": "百宝箱",
       "path": "杂七杂八/个人项目/百宝箱/百宝箱.md"
-    },
-    {
-      "basename": "python MySQLdb模块的使用",
-      "path": "杂七杂八/归档/Python 学习/python MySQLdb模块的使用.md"
-    },
-    {
-      "basename": "用户数据库",
-      "path": "工作笔记/用户数据库/用户数据库.md"
     }
   ],
   "omittedPaths": [],

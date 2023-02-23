@@ -58,7 +58,7 @@
       "Use the YAML key `linter-yaml-title-alias` to help with filename and heading changes": true
     },
     "Capitalize Headings": {
-      "Headings should be formatted with capitalization": true,
+      "Headings should be formatted with capitalization": false,
       "Style": "Title Case",
       "Ignore Cased Words": true,
       "Ignore Words": "macOS, iOS, iPhone, iPad, JavaScript, TypeScript, AppleScript, I",
