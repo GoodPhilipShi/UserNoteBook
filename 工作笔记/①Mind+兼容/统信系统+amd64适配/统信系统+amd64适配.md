@@ -5,10 +5,10 @@
 
 # 搭建环境
 
-| 名称     | 版本       | 目标版本     |
+|名称 | 版本       | 目标版本     |
 | ------ | -------- | -------- |
-| Git    | v2.20.1  | 无        |
-| NPM    | v5.8.0   | v8.3.1   |
+|Git| v2.20.1  | 无        |
+|NPM| v5.8.0   | v8.3.1   |
 | Node   | v10.21.0 | v16.14.0 |
 | Python | v2.7.16  | v3.*     |
 
@@ -212,13 +212,12 @@ python ofile.py --build --includes -b uno
    - "uno": true,
    + "uno": false,
    ```
-
+   
 2. 编译
    
    ```shell
    python ofile.py --build --includes -b uno
    ```
-
 3. 单独编译`DFRobot_pinpongBread`
    
    ```diff
@@ -255,7 +254,7 @@ python ofile.py --build --includes -b uno
    ```shell
    strings /lib/x86_64-linux-gnu/libm.so.6 | grep GLIBC_
    ```
-   
+
    ```
    GLIBC_2.2.5
    GLIBC_2.4
@@ -269,7 +268,7 @@ python ofile.py --build --includes -b uno
    GLIBC_2.28
    GLIBC_PRIVATE
    ```
-
+   
 2. 思考: 系统本身就存在`Python 3.7.3`, 那么就不可能说我运行不了`Python 3.6.5`
 
 3. 查看一下: `compat`是不是分支没有切换
@@ -291,8 +290,8 @@ python ofile.py --build --includes -b uno
       ```shell
       ./configure --prefix=`pwd`/../Python-3.6.5-build
       make && make install
-      ```
-      
+       ```
+   
       > 编译好的代码就在 `Python-3.6.5-build`文件夹
       > 
       > 最后就是打包替换原 `Python3.6.5_linux_x86_64.zip`
