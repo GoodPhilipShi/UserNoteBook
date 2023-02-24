@@ -5,6 +5,14 @@
       "path": "工作笔记/①Mind+兼容/Mac系统适配/173RC2.0/173RC2.0.md"
     },
     {
+      "basename": "Python打包",
+      "path": "工作笔记/①Mind+兼容/相关资料/Python打包.md"
+    },
+    {
+      "basename": "OpenOCD编译",
+      "path": "工作笔记/①Mind+兼容/相关资料/OpenOCD编译.md"
+    },
+    {
       "basename": "统信系统+amd64适配",
       "path": "工作笔记/①Mind+兼容/统信系统+amd64适配/统信系统+amd64适配.md"
     },
@@ -27,10 +35,6 @@
     {
       "basename": "龙芯系统+龙芯(misp64-3A4000)适配",
       "path": "工作笔记/①Mind+兼容/龙芯系统+龙芯(misp64-3A4000)适配/龙芯系统+龙芯(misp64-3A4000)适配.md"
-    },
-    {
-      "basename": "Python打包",
-      "path": "工作笔记/①Mind+兼容/相关资料/Python打包.md"
     },
     {
       "basename": "统信系统+龙芯(loong64-3A5000)适配",
@@ -195,10 +199,6 @@
     {
       "basename": "23年01月19日",
       "path": "日记/23年01月19日.md"
-    },
-    {
-      "basename": "公司账号",
-      "path": "工作笔记/公司账号.md"
     }
   ],
   "omittedPaths": [],
