@@ -1,0 +1,13 @@
+{
+	"nodes":[
+		{"id":"508c3424616421db","x":-420,"y":-320,"width":1780,"height":1400,"type":"group","label":"Golang学习"},
+		{"id":"fe9abb8d91be33c1","x":-400,"y":-240,"width":400,"height":380,"type":"file","file":"个人学习/Golang学习/1. 什么是Go语言.md"},
+		{"id":"6e88e06a70871bd3","x":-400,"y":200,"width":400,"height":380,"type":"file","file":"个人学习/Golang学习/2. Go 语言环境搭建.md"},
+		{"id":"3a4bd8fb2635892b","x":-400,"y":640,"width":400,"height":400,"type":"file","file":"个人学习/Golang学习/3. Go 语言语法/3. Go 语言语法.md"},
+		{"id":"eea255dda4ada590","x":40,"y":640,"width":400,"height":400,"type":"file","file":"个人学习/Golang学习/3. Go 语言语法/变量.md"},
+		{"id":"c303cd911ba783a3","x":480,"y":640,"width":400,"height":400,"type":"file","file":"个人学习/Golang学习/3. Go 语言语法/数据类型.md"},
+		{"id":"897ba7afbf0b51e2","x":920,"y":640,"width":400,"height":400,"type":"file","file":"个人学习/Golang学习/3. Go 语言语法/容器.md"},
+		{"id":"5ae9376d0179dbc0","x":78,"y":-240,"width":325,"height":50,"type":"text","text":"照抄 [[Golang学习笔记]]，进行复习"}
+	],
+	"edges":[]
+}

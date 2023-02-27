@@ -4,23 +4,37 @@
     "type": "split",
     "children": [
       {
-        "id": "d69c1f803e08d481",
+        "id": "abb17905efaf9979",
         "type": "tabs",
         "children": [
           {
-            "id": "4d62a2bee8a997fe",
+            "id": "b02f0e6758b5ee45",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "工作笔记/①Mind+兼容/Mac系统适配/173RC2.0/173RC2.0.md",
+                "file": "个人学习/Golang学习/3. Go 语言语法/容器.md",
+                "mode": "preview",
+                "backlinks": false,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "c52f79b2309efc35",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "个人学习/Golang学习/3. Go 语言语法/数据类型.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -78,8 +92,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 239.5,
-    "collapsed": true
+    "width": 239.5
   },
   "right": {
     "id": "3b729fdb5773f5f9",
@@ -107,7 +120,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "工作笔记/①Mind+兼容/Mac系统适配/173RC2.0/173RC2.0.md",
+                "file": "个人学习/Golang学习/3. Go 语言语法/数据类型.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -124,7 +137,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "工作笔记/①Mind+兼容/Mac系统适配/173RC2.0/173RC2.0.md",
+                "file": "个人学习/Golang学习/3. Go 语言语法/数据类型.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -160,7 +173,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "工作笔记/①Mind+兼容/Mac系统适配/173RC2.0/173RC2.0.md"
+                "file": "个人学习/Golang学习/3. Go 语言语法/数据类型.md"
               }
             }
           },
@@ -172,8 +185,7 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -196,11 +208,18 @@
       "workspaces:管理工作区布局": false
     }
   },
-  "active": "5ce6bd3138c54180",
+  "active": "c52f79b2309efc35",
   "lastOpenFiles": [
+    "个人学习/Golang学习/3. Go 语言语法/容器.md",
+    "个人学习/Golang学习/3. Go 语言语法/变量.md",
+    "个人学习/Golang学习笔记.md",
+    "个人学习/Golang学习/2. Go 语言环境搭建.md",
+    "白板/学习整理.canvas",
+    "未命名.canvas",
+    "白板",
+    "工作笔记/①Mind+兼容/Mac系统适配/173RC2.0/173RC2.0.md",
     "工作笔记/①Mind+兼容/相关资料/Python打包.md",
     "✨看板/✨看板.md",
-    "工作笔记/①Mind+兼容/Mac系统适配/173RC2.0/173RC2.0.md",
     "工作笔记/①Mind+兼容/Mac系统适配/173RC2.0/附件/Pasted image 20230224110440.png",
     "工作笔记/①Mind+兼容/Mac系统适配/173RC2.0/附件/Pasted image 20230221101446.png",
     "工作笔记/①Mind+兼容/Mac系统适配/173RC2.0/附件/Pasted image 20230221101412.png",

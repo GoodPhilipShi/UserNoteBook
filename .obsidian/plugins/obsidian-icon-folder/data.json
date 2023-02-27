@@ -6,11 +6,11 @@
     "emojiStyle": "none",
     "iconColor": null,
     "recentlyUsedIcons": [
+      "SiCanva",
       "FasB",
       "FasN",
       "SiApacheairflow",
-      "FabAngellist",
-      "SiRobotframework"
+      "FabAngellist"
     ],
     "recentlyUsedIconsSize": 5,
     "rules": [],
@@ -30,5 +30,6 @@
   "工作日程": "SiCountingworkspro",
   "娱乐记录": "FabAngellist",
   "杂七杂八": "SiApacheairflow",
-  "个人学习": "SiOnlyfans"
+  "个人学习": "SiOnlyfans",
+  "白板": "SiCanva"
 }
