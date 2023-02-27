@@ -11,9 +11,12 @@
             "id": "4d62a2bee8a997fe",
             "type": "leaf",
             "state": {
-              "type": "kanban",
+              "type": "markdown",
               "state": {
-                "file": "✨看板/✨看板.md"
+                "file": "工作笔记/①Mind+兼容/Mac系统适配/173RC2.0/173RC2.0.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
               }
             }
           }
@@ -75,7 +78,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 239.5
+    "width": 239.5,
+    "collapsed": true
   },
   "right": {
     "id": "3b729fdb5773f5f9",
@@ -103,7 +107,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "✨看板/✨看板.md",
+                "file": "工作笔记/①Mind+兼容/Mac系统适配/173RC2.0/173RC2.0.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -120,7 +124,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "✨看板/✨看板.md",
+                "file": "工作笔记/①Mind+兼容/Mac系统适配/173RC2.0/173RC2.0.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -156,7 +160,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "✨看板/✨看板.md"
+                "file": "工作笔记/①Mind+兼容/Mac系统适配/173RC2.0/173RC2.0.md"
               }
             }
           },
@@ -192,13 +196,14 @@
       "workspaces:管理工作区布局": false
     }
   },
-  "active": "de43a196f7ed774c",
+  "active": "5ce6bd3138c54180",
   "lastOpenFiles": [
+    "工作笔记/①Mind+兼容/相关资料/Python打包.md",
+    "✨看板/✨看板.md",
     "工作笔记/①Mind+兼容/Mac系统适配/173RC2.0/173RC2.0.md",
     "工作笔记/①Mind+兼容/Mac系统适配/173RC2.0/附件/Pasted image 20230224110440.png",
     "工作笔记/①Mind+兼容/Mac系统适配/173RC2.0/附件/Pasted image 20230221101446.png",
     "工作笔记/①Mind+兼容/Mac系统适配/173RC2.0/附件/Pasted image 20230221101412.png",
-    "工作笔记/①Mind+兼容/相关资料/Python打包.md",
     "工作笔记/①Mind+兼容/相关资料/OpenOCD编译.md",
     "工作笔记/①Mind+兼容/统信系统+amd64适配/统信系统+amd64适配.md",
     "工作笔记/①Mind+兼容/统信系统+arm64适配/统信系统+arm64适配.md",
