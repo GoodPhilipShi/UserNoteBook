@@ -5,6 +5,10 @@
       "path": "工作笔记/①Mind+兼容/Mac系统适配/173RC2.0/173RC2.0.md"
     },
     {
+      "basename": "Callouts 用法",
+      "path": "个人学习/Obsidian/用法/Callouts 用法.md"
+    },
+    {
       "basename": "容器",
       "path": "个人学习/Golang学习/3. Go 语言语法/容器.md"
     },
@@ -87,10 +91,6 @@
     {
       "basename": "统信适配认证流程",
       "path": "工作笔记/①Mind+兼容/统信适配认证流程/统信适配认证流程.md"
-    },
-    {
-      "basename": "Callouts 用法",
-      "path": "个人学习/Obsidian/用法/Callouts 用法.md"
     },
     {
       "basename": "Linux适配必看",
