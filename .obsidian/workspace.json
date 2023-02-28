@@ -106,6 +106,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "工作笔记/①Mind+兼容/Mac系统适配/173RC2.0/173RC2.0.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -122,6 +123,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "工作笔记/①Mind+兼容/Mac系统适配/173RC2.0/173RC2.0.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -156,7 +158,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "工作笔记/①Mind+兼容/Mac系统适配/173RC2.0/173RC2.0.md"
+              }
             }
           },
           {
@@ -190,12 +194,12 @@
       "workspaces:管理工作区布局": false
     }
   },
-  "active": "f1215af967c6385b",
+  "active": "c52f79b2309efc35",
   "lastOpenFiles": [
+    "白板/草稿.canvas",
     "个人学习/Golang学习/3. Go 语言语法/容器.md",
     "工作笔记/①Mind+兼容/Mac系统适配/173RC2.0/173RC2.0.md",
     "工作笔记/①Mind+兼容/Mac系统适配/Mac系统打包.md",
-    "白板/草稿.canvas",
     "个人学习/Golang学习/3. Go 语言语法/数据类型.md",
     "个人学习/Golang学习/3. Go 语言语法/变量.md",
     "个人学习/Golang学习笔记.md",
